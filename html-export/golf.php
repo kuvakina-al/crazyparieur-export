@@ -37,7 +37,7 @@
                         <?php include './card.php'; ?>
                         <?php
                         renderCard(
-                            'logo-parionssport.png',
+                            'Parions Sport.png',
                             'ParionsSport',
                             '100%',
                             'JUSQU\'À 100€',
@@ -48,7 +48,7 @@
                         );
                         
                         renderCard(
-                            'logo-winamax.png',
+                            'Winamax.png',
                             'Winamax',
                             '200%',
                             'JUSQU\'À 200€',
@@ -59,7 +59,7 @@
                         );
                         
                         renderCard(
-                            'logo-netbet.png',
+                            'NetBet.png',
                             'NetBet',
                             '150%',
                             'JUSQU\'À 150€',

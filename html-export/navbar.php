@@ -14,7 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         </ul>
         
         <div class="navbar-right">
-            <span class="age-warning">18+</span>
+            <img src="./images/header 18+.png" alt="18+" class="age-warning-img" />
             <button class="mobile-menu-toggle mobile-only" onclick="toggleMenu()">
                 <span>☰ Menu</span>
             </button>

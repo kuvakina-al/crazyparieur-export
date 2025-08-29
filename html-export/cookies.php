@@ -1,5 +1,7 @@
 <div class="cookies-banner active" id="cookiesBanner">
-    <div class="cookies-icon">🍪</div>
+    <div class="cookies-icon">
+        <img src="./images/Cookie.png" alt="Cookie" />
+    </div>
     <div class="cookies-content">
         <p class="cookies-text">
             Crazy Parieur utilise des cookies pour améliorer votre expérience et analyser le trafic. En continuant, vous acceptez leur utilisation.

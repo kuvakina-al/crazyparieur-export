@@ -79,14 +79,9 @@
 }
 
 /* Age Warning */
-.age-warning {
-    background-color: #cc0000;
-    color: #ffffff;
-    font-size: 12px;
-    padding: 4px 8px;
-    border-radius: 4px;
-    margin-left: 20px;
-    font-weight: bold;
+.age-warning-img {
+    height: 24px;
+    vertical-align: middle;
 }
 
 /* Mobile Menu Toggle */
@@ -163,10 +158,8 @@
         font-size: 20px;
     }
     
-    .age-warning {
-        font-size: 10px;
-        padding: 3px 6px;
-        margin-left: 12px;
+    .age-warning-img {
+        height: 20px;
     }
 }
 
@@ -179,8 +172,7 @@
         font-size: 18px;
     }
     
-    .age-warning {
-        font-size: 9px;
-        margin-left: 8px;
+    .age-warning-img {
+        height: 18px;
     }
 }
