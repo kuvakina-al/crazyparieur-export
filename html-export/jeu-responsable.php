@@ -18,15 +18,15 @@
 </head>
 <body>
     <div class="site-wrapper">
-        <?php include './components/navbar.php'; ?>
-        <?php include './components/menu.php'; ?>
+        <?php include './navbar.php'; ?>
+        <?php include './menu.php'; ?>
         
         <main class="main-content">
             <div class="container">
                 <section class="section">
                     <h1>Jeu Responsable - Prévention et Aide</h1>
                     
-                    <?php include './components/text-container.php'; ?>
+                    <?php include './text-container.php'; ?>
                     <?php
                     $introContent = '
                         <p>Chez Crazy Parieur, nous nous engageons à promouvoir un environnement de jeu sûr et responsable. Cette page présente nos ressources et informations pour vous aider à maintenir un contrôle sur vos activités de paris sportifs.</p>
@@ -81,8 +81,8 @@
             </div>
         </main>
         
-        <?php include './components/footer.php'; ?>
-        <?php include './components/cookies.php'; ?>
+        <?php include './footer.php'; ?>
+        <?php include './cookies.php'; ?>
     </div>
 </body>
 </html>

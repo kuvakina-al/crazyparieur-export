@@ -23,8 +23,8 @@
 </head>
 <body>
     <div class="site-wrapper">
-        <?php include './components/navbar.php'; ?>
-        <?php include './components/menu.php'; ?>
+        <?php include './navbar.php'; ?>
+        <?php include './menu.php'; ?>
         
         <main class="main-content">
             <div class="container">
@@ -34,7 +34,7 @@
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">
-                        <?php include './components/card.php'; ?>
+                        <?php include './card.php'; ?>
                         <?php
                         renderCard(
                             'logo-parionssport.png',
@@ -72,7 +72,7 @@
                     </div>
                     
                     <!-- Basketball Content -->
-                    <?php include './components/text-container.php'; ?>
+                    <?php include './text-container.php'; ?>
                     <?php
                     $basketballIntroContent = '
                         <p>Amateurs de basketball et de sensations fortes! Perfect vous êtes dans le bon endroit pour transformer votre passion en gains réels. Que vous soyez fan de NBA, d\'Euroligue ou autres championnats, chaque dribble et chaque panier à trois points peut générer des opportunities. Avec Crazy Parieur vous gérez vos expériences dans le royaume des paris de basketball.</p>
@@ -103,8 +103,8 @@
             </div>
         </main>
         
-        <?php include './components/footer.php'; ?>
-        <?php include './components/cookies.php'; ?>
+        <?php include './footer.php'; ?>
+        <?php include './cookies.php'; ?>
     </div>
 </body>
 </html>

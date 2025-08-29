@@ -23,8 +23,8 @@
 </head>
 <body>
     <div class="site-wrapper">
-        <?php include './components/navbar.php'; ?>
-        <?php include './components/menu.php'; ?>
+        <?php include './navbar.php'; ?>
+        <?php include './menu.php'; ?>
         
         <main class="main-content">
             <div class="container">
@@ -34,7 +34,7 @@
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">
-                        <?php include './components/card.php'; ?>
+                        <?php include './card.php'; ?>
                         <?php
                         renderCard(
                             'logo-parionssport.png',
@@ -72,7 +72,7 @@
                     </div>
                     
                     <!-- Golf Content -->
-                    <?php include './components/text-container.php'; ?>
+                    <?php include './text-container.php'; ?>
                     <?php
                     $golfIntroContent = '
                         <p>Imaginez le bruit sourd de cette joie qui frappe la balle, le silence concentré du green sous le soleil, le éventail d\'un par impeccable sur le golf Chez Crazy Parieur, nous transformons cette passion pour le golf en aventure à la fois ludique et potentiellement lucrative. Nous vous offrons non seulement une expérience enrichissante mais aussi une diversité d\'opportunités de parieurs.</p>
@@ -103,8 +103,8 @@
             </div>
         </main>
         
-        <?php include './components/footer.php'; ?>
-        <?php include './components/cookies.php'; ?>
+        <?php include './footer.php'; ?>
+        <?php include './cookies.php'; ?>
     </div>
 </body>
 </html>

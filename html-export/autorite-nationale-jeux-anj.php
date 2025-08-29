@@ -18,15 +18,15 @@
 </head>
 <body>
     <div class="site-wrapper">
-        <?php include './components/navbar.php'; ?>
-        <?php include './components/menu.php'; ?>
+        <?php include './navbar.php'; ?>
+        <?php include './menu.php'; ?>
         
         <main class="main-content">
             <div class="container">
                 <section class="section">
                     <h1>Découvrez l'Autorité Nationale des Jeux (ANJ)</h1>
                     
-                    <?php include './components/text-container.php'; ?>
+                    <?php include './text-container.php'; ?>
                     <?php
                     $introContent = '
                         <p>L\'Autorité Nationale des Jeux (ANJ) est l\'organisme français de régulation des jeux d\'argent et de hasard. Créée en 2020, elle succède à l\'ARJEL et élargit ses compétences à l\'ensemble du secteur des jeux.</p>
@@ -86,8 +86,8 @@
             </div>
         </main>
         
-        <?php include './components/footer.php'; ?>
-        <?php include './components/cookies.php'; ?>
+        <?php include './footer.php'; ?>
+        <?php include './cookies.php'; ?>
     </div>
 </body>
 </html>

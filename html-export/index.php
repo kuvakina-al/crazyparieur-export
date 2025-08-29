@@ -24,8 +24,8 @@
 </head>
 <body>
     <div class="site-wrapper">
-        <?php include './components/navbar.php'; ?>
-        <?php include './components/menu.php'; ?>
+        <?php include './navbar.php'; ?>
+        <?php include './menu.php'; ?>
         
         <main class="main-content">
             <div class="container">
@@ -35,7 +35,7 @@
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">
-                        <?php include './components/card.php'; ?>
+                        <?php include './card.php'; ?>
                         <?php
                         renderCard(
                             'logo-parionssport.png',
@@ -74,7 +74,7 @@
                     </div>
                     
                     <!-- Text Content -->
-                    <?php include './components/text-container.php'; ?>
+                    <?php include './text-container.php'; ?>
                     <?php
                     renderIntroSection();
                     renderDevelopmentSection();
@@ -84,8 +84,8 @@
             </div>
         </main>
         
-        <?php include './components/footer.php'; ?>
-        <?php include './components/cookies.php'; ?>
+        <?php include './footer.php'; ?>
+        <?php include './cookies.php'; ?>
     </div>
 </body>
 </html>
