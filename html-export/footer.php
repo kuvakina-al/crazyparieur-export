@@ -23,13 +23,13 @@
                 
                 <div class="partner-logos">
                     <div class="partner-logo">
-                        <img src="./images/logo-anj.png" alt="ANJ" />
+                        <img src="./images/anj.png" alt="ANJ" />
                     </div>
                     <div class="partner-logo">
-                        <img src="./images/logo-gambleaware.png" alt="GambleAware" />
+                        <img src="./images/begambleaware.org.png" alt="GambleAware" />
                     </div>
                     <div class="partner-logo">
-                        <img src="./images/logo-sos-joueurs.png" alt="SOS Joueurs" />
+                        <img src="./images/sos_joueurs_1.png" alt="SOS Joueurs" />
                     </div>
                 </div>
             </div>
