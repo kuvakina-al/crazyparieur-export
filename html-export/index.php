@@ -44,7 +44,8 @@
                             '+1ER PARI REMBOURSÉ',
                             'OBTENEZ LE BONUS',
                             'https://www.enligne.parionssport.fdj.fr/?utm=Q7dK2a9tX3',
-                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise']
+                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise'],
+                            'pattern'
                         );
                         
                         renderCard(
@@ -55,7 +56,8 @@
                             '+1ER PARI REMBOURSÉ',
                             'OBTENEZ LE BONUS',
                             'https://www.winamax.fr/?utm=z5C1Y8H4mV',
-                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise']
+                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise'],
+                            'pattern'
                         );
                         
                         renderCard(
