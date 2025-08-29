@@ -30,7 +30,8 @@
         <main class="main-content">
             <div class="container">
                 <section class="section">
-                    <?php renderTitleSection(); ?>
+                    <h1>Paris Sportifs Faciles et Rapides - Crazy Parieur</h1>
+                    <p style="text-align: center; font-size: 16px; margin-bottom: 40px;">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir vos paris sportifs en ligne.</p>
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">
@@ -74,12 +75,30 @@
                         ?>
                     </div>
                     
-                    <!-- Text Content -->
+                    <!-- Main Content -->
                     <?php include './text-container.php'; ?>
                     <?php
-                    renderIntroSection();
-                    renderDevelopmentSection();
-                    renderConclusionSection();
+                    $introContent = '
+                        <p>Bienvenue sur Crazy Parieur, votre compagnon de confiance dans l\'univers des paris sportifs en ligne! Que vous soyez débutant ou parieur expérimenté, nous vous accompagnons avec des conseils d\'experts, des stratégies gagnantes et des comparatifs détaillés des meilleurs bookmakers du marché.</p>
+                    ';
+                    renderTextContainer('Introduction', $introContent, 'intro');
+                    
+                    $developmentContent = '
+                        <h3>Notre Mission</h3>
+                        <p>Chez Crazy Parieur, nous croyons que parier doit être une expérience enrichissante et responsable. Notre équipe d\'experts analyse quotidiennement les meilleures opportunités, compare les offres des bookmakers et partage avec vous les stratégies les plus efficaces pour maximiser vos gains.</p>
+                        
+                        <h3>Nos Services</h3>
+                        <p>Découvrez nos analyses approfondies, nos guides détaillés pour chaque sport, et nos comparatifs exclusifs des bonus et promotions. Nous couvrons tous les sports populaires : football, basketball, tennis, golf et bien plus encore.</p>
+                        
+                        <h3>Pourquoi Nous Choisir</h3>
+                        <p>Avec des années d\'expérience dans le domaine des paris sportifs, notre équipe vous offre une expertise inégalée. Nos conseils sont basés sur des analyses rigoureuses et une connaissance approfondie du marché des paris en ligne.</p>
+                    ';
+                    renderTextContainer('Développement', $developmentContent);
+                    
+                    $conclusionContent = '
+                        <p>Rejoignez la communauté Crazy Parieur dès aujourd\'hui et transformez votre passion du sport en succès! Avec nos outils et conseils, vous êtes prêt à faire les meilleurs choix pour vos paris sportifs.</p>
+                    ';
+                    renderTextContainer('Conclusion', $conclusionContent, 'conclusion');
                     ?>
                 </section>
             </div>
