@@ -1,3 +1,6 @@
+<?php
+$current_page = basename($_SERVER['PHP_SELF'], '.php');
+?>
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-content">
@@ -15,13 +18,16 @@
             
             <div class="footer-links-section">
                 <ul class="footer-links">
-                    <li><a href="conditions-generales-utilisation.php">Conditions Générales d'Utilisation</a></li>
-                    <li><a href="jeu-responsable.php">Pratique du Jeu en Ligne Sûre</a></li>
-                    <li><a href="politique-confidentialite.php">Règles de Confidentialité</a></li>
-                    <li><a href="autorite-nationale-jeux-anj.php">ANJ</a></li>
+                    <li><a href="conditions-generales-utilisation.php" class="<?php echo ($current_page == 'conditions-generales-utilisation') ? 'active' : ''; ?>">Conditions Générales d'Utilisation</a></li>
+                    <li><a href="jeu-responsable.php" class="<?php echo ($current_page == 'jeu-responsable') ? 'active' : ''; ?>">Pratique du Jeu en Ligne Sûre</a></li>
+                    <li><a href="politique-confidentialite.php" class="<?php echo ($current_page == 'politique-confidentialite') ? 'active' : ''; ?>">Règles de Confidentialité</a></li>
+                    <li><a href="autorite-nationale-jeux-anj.php" class="<?php echo ($current_page == 'autorite-nationale-jeux-anj') ? 'active' : ''; ?>">ANJ</a></li>
                 </ul>
                 
                 <div class="partner-logos">
+                    <div class="partner-logo">
+                        <img src="./images/footer18+.png" alt="18+" />
+                    </div>
                     <div class="partner-logo">
                         <img src="./images/anj.png" alt="ANJ" />
                     </div>

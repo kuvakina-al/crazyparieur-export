@@ -69,8 +69,9 @@
     transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
-    color: #00cc33;
+.footer-links a:hover,
+.footer-links a.active {
+    color: #00ff41;
 }
 
 .partner-logos {

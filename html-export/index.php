@@ -30,8 +30,7 @@
         <main class="main-content">
             <div class="container">
                 <section class="section">
-                    <h1>Paris Sportifs Faciles et Rapides</h1>
-                    <p style="text-align: center; font-size: 16px; margin-bottom: 40px;">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir vos paris sportifs en ligne.</p>
+                    <?php renderTitleSection(); ?>
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">

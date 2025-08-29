@@ -3,6 +3,7 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     $cardClass = 'card' . ($variant ? ' card-' . $variant : '');
     
     echo '<div class="' . $cardClass . '">';
+    
     echo '<div class="card-logo">';
     echo '<img src="./images/' . $logo . '" alt="' . $logoAlt . '" />';
     echo '</div>';
@@ -23,6 +24,19 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
         echo '</ul>';
     }
     
+    echo '</div>';
+}
+
+function renderTitleSection() {
+    echo '<div class="title-section">';
+    echo '<h1 class="main-title">Paris Sportifs Faciles et Rapides</h1>';
+    echo '<p class="main-subtitle">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir</p>';
+    echo '<div class="title-features">';
+    echo '<div class="title-feature">';
+    echo '<span class="feature-check">✓</span>';
+    echo '<span>Découvrez la plus grande sélection des meilleures offres de bonus</span>';
+    echo '</div>';
+    echo '</div>';
     echo '</div>';
 }
 
