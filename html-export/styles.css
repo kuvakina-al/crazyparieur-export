@@ -23,7 +23,11 @@ body {
 /* Main Content */
 .main-content {
     flex: 1;
-    padding-top: 80px;
+    padding-top: 90px;
+    min-height: calc(100vh - 90px);
+    background-color: #1a1a1a;
+    position: relative;
+    z-index: 1;
 }
 
 /* Typography */
@@ -71,6 +75,8 @@ a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    position: relative;
+    z-index: 1;
 }
 
 /* Section Spacing */
@@ -135,7 +141,8 @@ a:hover {
     }
     
     .main-content {
-        padding-top: 70px;
+        padding-top: 80px;
+        min-height: calc(100vh - 80px);
     }
     
     .section {
