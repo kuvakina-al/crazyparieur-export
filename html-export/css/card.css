@@ -30,6 +30,7 @@
     border-color: #00ff41;
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
+    background: linear-gradient(180deg, #3F3F50 0%, #1F1F28 100%);
 }
 
 .card-logo {
@@ -129,16 +130,23 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    width: 322.6666564941406px;
+    height: 80px;
+    gap: 16px;
+    opacity: 1;
 }
 
 .card-features li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 0;
+    width: 322.6666564941406px;
+    height: 16px;
+    gap: 10px;
     font-size: 14px;
     font-family: 'Barlow Condensed', sans-serif;
     color: #1AF6C2;
+    opacity: 1;
 }
 
 .card-features li:last-child {
@@ -146,14 +154,18 @@
 }
 
 .card-features .feature-check {
-    width: 12.05px;
-    height: 12.05px;
+    width: 16px;
+    height: 16px;
     background-color: #1AF6C2;
-    border-radius: 50%;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    gap: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    opacity: 1;
 }
 
 .card-features .feature-check::before {
@@ -183,6 +195,7 @@
     mix-blend-mode: overlay;
     pointer-events: none;
     z-index: 1;
+    opacity: 0.2;
 }
 
 .card-pattern > * {
