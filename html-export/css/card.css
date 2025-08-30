@@ -12,10 +12,10 @@
 
 .card {
     background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%);
+    border: 1px solid #48485B94;
     border-radius: 20px;
     padding: 24px;
     text-align: center;
-    border: 1px solid #48485B94;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
