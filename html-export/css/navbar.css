@@ -5,10 +5,15 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #2a2a2a;
-    border-bottom: 1px solid #333333;
+    background-color: #0A0B0E;
+    border-bottom: 1px solid;
+    border-image-source: linear-gradient(90deg, #04FF25 0%, #281762 100%);
+    border-image-slice: 1;
     z-index: 1000;
-    height: 70px;
+    height: 124px;
+    width: 100%;
+    max-width: 1608px;
+    margin: 0 auto;
 }
 
 .navbar-container {
@@ -16,9 +21,10 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 32px;
+    gap: 270px;
 }
 
 .navbar-logo {
@@ -112,10 +118,10 @@
 .mobile-menu {
     display: none;
     position: fixed;
-    top: 70px;
+    top: 124px;
     left: 0;
     right: 0;
-    background-color: #2a2a2a;
+    background-color: #0A0B0E;
     border-bottom: 1px solid #333333;
     padding: 20px;
 }
@@ -148,7 +154,11 @@
 /* Mobile Styles */
 @media (max-width: 767px) {
     .navbar {
-        height: 60px;
+        height: 80px;
+    }
+    
+    .mobile-menu {
+        top: 80px;
     }
     
     .navbar-nav {
