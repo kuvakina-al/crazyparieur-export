@@ -371,6 +371,61 @@
     }
 }
 
+/* Mobile Text Container with Checkbox */
+.mobile-text-container {
+    width: 272px;
+    height: 87px;
+    padding: 12px 24px;
+    gap: 12px;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto 30px auto;
+    opacity: 1;
+}
+
+.mobile-text-container .checkbox-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #00ff41;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.mobile-text-container .checkbox-icon::before {
+    content: '✓';
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mobile-text-container .text-content {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Show only on mobile */
+.mobile-text-container {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .mobile-text-container {
+        display: flex;
+    }
+}
+
 /* Title Section Styles */
 .title-section {
     text-align: center;
