@@ -48,24 +48,33 @@
     margin-bottom: 25px;
 }
 
+.card-main-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24.09px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
 .card-percentage {
-    font-size: 32px;
-    font-weight: bold;
     color: #00ff41;
-    margin-bottom: 5px;
+}
+
+.card-text-white {
+    color: #ffffff;
 }
 
 .card-amount {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 10px;
+    color: #00ff41;
 }
 
 .card-subtitle {
     font-size: 14px;
-    color: #cccccc;
+    color: #ffffff;
     font-weight: 500;
+    text-align: center;
 }
 
 .card-button {
@@ -101,11 +110,10 @@
 .card-features li {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 8px;
     padding: 8px 0;
-    border-bottom: 1px solid #444444;
     font-size: 14px;
-    color: #cccccc;
+    color: #1AF6C2;
 }
 
 .card-features li:last-child {
@@ -113,7 +121,20 @@
 }
 
 .card-features .feature-check {
-    color: #00ff41;
+    width: 12.05px;
+    height: 12.05px;
+    background-color: #1AF6C2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.card-features .feature-check::before {
+    content: '✓';
+    color: #000000;
+    font-size: 8px;
     font-weight: bold;
 }
 

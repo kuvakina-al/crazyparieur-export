@@ -9,8 +9,11 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     echo '</div>';
     
     echo '<div class="card-offer">';
-    echo '<div class="card-percentage">' . $percentage . '</div>';
-    echo '<div class="card-amount">' . $amount . '</div>';
+    echo '<div class="card-main-text">';
+    echo '<span class="card-percentage">' . $percentage . '</span>';
+    echo '<span class="card-text-white"> Jusqu\'à </span>';
+    echo '<span class="card-amount">' . $amount . '</span>';
+    echo '</div>';
     echo '<div class="card-subtitle">' . $subtitle . '</div>';
     echo '</div>';
     
@@ -19,7 +22,7 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     if (!empty($features)) {
         echo '<ul class="card-features">';
         foreach ($features as $feature) {
-            echo '<li>' . $feature . ' <span class="feature-check">✓</span></li>';
+            echo '<li><span class="feature-check"></span>' . $feature . '</li>';
         }
         echo '</ul>';
     }
