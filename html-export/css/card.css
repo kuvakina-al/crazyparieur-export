@@ -1,21 +1,25 @@
 /* Card Component Styles */
 
 .cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: space-between;
     gap: 30px;
     padding: 40px 0;
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: #333333;
-    border-radius: 8px;
-    padding: 30px;
+    background: linear-gradient(180deg, #3F3F50 0%, #1F1F28 100%);
+    border-radius: 20px;
+    padding: 24px;
     text-align: center;
-    border: 2px solid #444444;
+    border: 1px solid rgba(72, 72, 91, 0.58);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    width: 370.67px;
+    height: 423px;
+    min-width: 313px;
 }
 
 .card:hover {

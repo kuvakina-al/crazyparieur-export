@@ -14,6 +14,7 @@
     <meta property="og:url" content="https://crazy-parieur.fr">
     
     <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -30,7 +31,7 @@
         <main class="main-content">
             <div class="container">
                 <section class="section">
-                    <h1>Paris Sportifs Faciles et Rapides - Crazy Parieur</h1>
+                    <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 38px; line-height: 120%; letter-spacing: 0%; text-align: center; color: #00ff41; margin-bottom: 15px;">Paris Sportifs Faciles et Rapides - Crazy Parieur</h1>
                     <p style="text-align: center; font-size: 16px; margin-bottom: 40px;">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir vos paris sportifs en ligne.</p>
                     
                     <!-- Bookmaker Cards -->
