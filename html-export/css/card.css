@@ -64,6 +64,11 @@
 
 .card-text-white {
     color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-text-white {
+    color: #00ff41;
 }
 
 .card-amount {
@@ -78,11 +83,11 @@
 }
 
 .card-button {
-    background-color: #00ff41;
+    background: linear-gradient(135deg, #01FC0B 0%, #03B10A 100%);
     color: #000000;
     padding: 15px 30px;
-    border: none;
-    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -155,8 +160,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%);
-    opacity: 0.2;
+    background: rgba(49, 49, 63, 0.2);
     mix-blend-mode: overlay;
     pointer-events: none;
     z-index: 1;
