@@ -49,9 +49,10 @@
 }
 
 .card-logo img {
-    max-height: 50px;
-    max-width: 200px;
+    width: 241.9867706298828px;
+    height: 90px;
     object-fit: contain;
+    opacity: 1;
 }
 
 .card-offer {

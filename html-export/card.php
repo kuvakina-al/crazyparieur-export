@@ -65,8 +65,8 @@ function renderCardsContainer($cards = []) {
                 'variant' => 'pattern'
             ],
             [
-                'logo' => 'NetBet.png',
-                'logoAlt' => 'NetBet',
+                'logo' => 'Unibet Logo.png',
+                'logoAlt' => 'Unibet',
                 'percentage' => '150%',
                 'amount' => 'JUSQU\'À 150€',
                 'subtitle' => '+1ER PARI REMBOURSÉ',
