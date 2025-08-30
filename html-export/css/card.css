@@ -33,8 +33,9 @@
 }
 
 .card-logo {
-    width: 241.9867706298828px;
+    width: 322.6666564941406px;
     height: 90px;
+    gap: 10px;
     opacity: 1;
     display: flex;
     align-items: center;
