@@ -14,6 +14,7 @@
 
 .card {
     background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%);
+    border: 1px solid #48485B94;
     border-radius: 20px;
     padding: 24px;
     text-align: center;
@@ -30,6 +31,7 @@
 }
 
 .card:hover {
+    border-color: #00ff41;
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
 }
