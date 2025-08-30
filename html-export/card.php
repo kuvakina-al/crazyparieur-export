@@ -11,7 +11,7 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     echo '<div class="card-offer">';
     echo '<div class="card-main-text">';
     echo '<span class="card-percentage">' . $percentage . '</span>';
-    echo '<span class="card-text-white"> Jusqu\'à </span>';
+    echo '<span class="card-text-white"> </span>';
     echo '<span class="card-amount">' . $amount . '</span>';
     echo '</div>';
     echo '<div class="card-subtitle">' . $subtitle . '</div>';
