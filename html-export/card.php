@@ -12,7 +12,13 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     echo '<div class="card-main-text">';
     echo '<span class="card-percentage">' . $percentage . '</span>';
     echo '<span class="card-text-white"> </span>';
-    echo '<span class="card-amount">' . $amount . '</span>';
+    if (strpos($amount, 'JUSQU\'À') !== false) {
+        $amountParts = explode(' ', $amount, 2);
+        echo '<span class="card-jusqua">' . $amountParts[0] . ' </span>';
+        echo '<span class="card-amount">' . (isset($amountParts[1]) ? $amountParts[1] : '') . '</span>';
+    } else {
+        echo '<span class="card-amount">' . $amount . '</span>';
+    }
     echo '</div>';
     echo '<div class="card-subtitle">' . $subtitle . '</div>';
     echo '</div>';

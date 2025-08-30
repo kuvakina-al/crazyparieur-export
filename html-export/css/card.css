@@ -89,6 +89,15 @@
     color: #00ff41;
 }
 
+.card-jusqua {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-jusqua {
+    color: #01FC0B;
+}
+
 .card-subtitle {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 20px;
