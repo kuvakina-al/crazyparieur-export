@@ -32,7 +32,17 @@
             <div class="container">
                 <section class="section">
                     <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 38px; line-height: 120%; letter-spacing: 0%; text-align: center; color: #00ff41; margin-bottom: 15px;">Paris Sportifs Faciles et Rapides - Crazy Parieur</h1>
-                    <p style="text-align: center; font-size: 16px; margin-bottom: 40px;">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir vos paris sportifs en ligne.</p>
+                    <p style="font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 20px; line-height: 120%; letter-spacing: 0%; text-align: center; color: #FFFFFF; margin-bottom: 20px;">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir vos paris sportifs en ligne.</p>
+                    
+                    <!-- Green Frame with Checkbox -->
+                    <div style="display: flex; align-items: center; justify-content: center; margin: 20px auto 40px auto; max-width: 506px; height: 48px; background: linear-gradient(180deg, #1E2334 0%, #0A1020 100%); border-radius: 999px; padding: 12px 24px; gap: 12px;">
+                        <div style="width: 24px; height: 24px; border: 1px solid #00ff41; border-radius: 4px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <svg width="12.61" height="10.36" viewBox="0 0 13 11" style="margin-top: 3.25px; margin-left: 1.86px;">
+                                <path d="M1 5.5L5 9.5L12 1.5" stroke="#0A1020" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span style="font-family: 'Montserrat', sans-serif; font-size: 14px; color: #FFFFFF; white-space: nowrap;">Découvrez la plus grande sélection des meilleures offres de bonus</span>
+                    </div>
                     
                     <!-- Bookmaker Cards -->
                     <div class="cards-container">
