@@ -1,3 +1,19 @@
+/* Main Content Container */
+.main-content-container {
+    width: 1608px;
+    height: 1179px;
+    border-top: 1px solid;
+    border-image-source: linear-gradient(270deg, #0A0B0E 0%, #04FF25 50%, #0A0B0E 100%);
+    border-image-slice: 1;
+    padding: 32px 220px;
+    gap: 10px;
+    opacity: 1;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Text Container Component Styles */
 
 .text-container {

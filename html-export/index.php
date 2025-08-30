@@ -48,31 +48,34 @@
                     <?php include './card.php'; ?>
                     <?php renderCardsContainer(); ?>
                     
-                    <!-- Main Content -->
-                    <?php include './text-container.php'; ?>
-                    <?php
-                    $introContent = '
-                        <p>Bienvenue sur Crazy Parieur, votre compagnon de confiance dans l\'univers des paris sportifs en ligne! Que vous soyez débutant ou parieur expérimenté, nous vous accompagnons avec des conseils d\'experts, des stratégies gagnantes et des comparatifs détaillés des meilleurs bookmakers du marché.</p>
-                    ';
-                    renderTextContainer('Introduction', $introContent, 'intro');
-                    
-                    $developmentContent = '
-                        <h3>Notre Mission</h3>
-                        <p>Chez Crazy Parieur, nous croyons que parier doit être une expérience enrichissante et responsable. Notre équipe d\'experts analyse quotidiennement les meilleures opportunités, compare les offres des bookmakers et partage avec vous les stratégies les plus efficaces pour maximiser vos gains.</p>
+                    <!-- Main Content Container -->
+                    <div class="main-content-container">
+                        <!-- Main Content -->
+                        <?php include './text-container.php'; ?>
+                        <?php
+                        $introContent = '
+                            <p>Bienvenue sur Crazy Parieur, votre compagnon de confiance dans l\'univers des paris sportifs en ligne! Que vous soyez débutant ou parieur expérimenté, nous vous accompagnons avec des conseils d\'experts, des stratégies gagnantes et des comparatifs détaillés des meilleurs bookmakers du marché.</p>
+                        ';
+                        renderTextContainer('Introduction', $introContent, 'intro');
                         
-                        <h3>Nos Services</h3>
-                        <p>Découvrez nos analyses approfondies, nos guides détaillés pour chaque sport, et nos comparatifs exclusifs des bonus et promotions. Nous couvrons tous les sports populaires : football, basketball, tennis, golf et bien plus encore.</p>
+                        $developmentContent = '
+                            <h3>Notre Mission</h3>
+                            <p>Chez Crazy Parieur, nous croyons que parier doit être une expérience enrichissante et responsable. Notre équipe d\'experts analyse quotidiennement les meilleures opportunités, compare les offres des bookmakers et partage avec vous les stratégies les plus efficaces pour maximiser vos gains.</p>
+                            
+                            <h3>Nos Services</h3>
+                            <p>Découvrez nos analyses approfondies, nos guides détaillés pour chaque sport, et nos comparatifs exclusifs des bonus et promotions. Nous couvrons tous les sports populaires : football, basketball, tennis, golf et bien plus encore.</p>
+                            
+                            <h3>Pourquoi Nous Choisir</h3>
+                            <p>Avec des années d\'expérience dans le domaine des paris sportifs, notre équipe vous offre une expertise inégalée. Nos conseils sont basés sur des analyses rigoureuses et une connaissance approfondie du marché des paris en ligne.</p>
+                        ';
+                        renderTextContainer('Développement', $developmentContent);
                         
-                        <h3>Pourquoi Nous Choisir</h3>
-                        <p>Avec des années d\'expérience dans le domaine des paris sportifs, notre équipe vous offre une expertise inégalée. Nos conseils sont basés sur des analyses rigoureuses et une connaissance approfondie du marché des paris en ligne.</p>
-                    ';
-                    renderTextContainer('Développement', $developmentContent);
-                    
-                    $conclusionContent = '
-                        <p>Rejoignez la communauté Crazy Parieur dès aujourd\'hui et transformez votre passion du sport en succès! Avec nos outils et conseils, vous êtes prêt à faire les meilleurs choix pour vos paris sportifs.</p>
-                    ';
-                    renderTextContainer('Conclusion', $conclusionContent, 'conclusion');
-                    ?>
+                        $conclusionContent = '
+                            <p>Rejoignez la communauté Crazy Parieur dès aujourd\'hui et transformez votre passion du sport en succès! Avec nos outils et conseils, vous êtes prêt à faire les meilleurs choix pour vos paris sportifs.</p>
+                        ';
+                        renderTextContainer('Conclusion', $conclusionContent, 'conclusion');
+                        ?>
+                    </div>
                 </section>
             </div>
         </main>

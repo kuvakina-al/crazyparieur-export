@@ -47,34 +47,37 @@
                     <?php include './card.php'; ?>
                     <?php renderCardsContainer(); ?>
                     
-                    <!-- Golf Content -->
-                    <?php include './text-container.php'; ?>
-                    <?php
-                    $golfIntroContent = '
-                        <p>Imaginez le bruit sourd de cette joie qui frappe la balle, le silence concentré du green sous le soleil, le éventail d\'un par impeccable sur le golf Chez Crazy Parieur, nous transformons cette passion pour le golf en aventure à la fois ludique et potentiellement lucrative. Nous vous offrons non seulement une expérience enrichissante mais aussi une diversité d\'opportunités de parieurs.</p>
-                    ';
-                    renderTextContainer('Introduction', $golfIntroContent, 'intro');
-                    
-                    $golfDevelopmentContent = '
-                        <h3>Comprendre les Paris sur le Golf</h3>
-                        <p>Parier sur le golf, c\'est comme prévoir quel golfeur va exceller sur le terrain. C\'est un art basé qui demande réflexion et précision. Comme un bon swing, un bon pari nécessaire de maitriser plusieurs éléments : les types de paris, les parcours et le facteurs qui déterminent les côtes. Un golf swing qui ne demande stratégique unique car chaque parcours a ses caractéristiques : obstacles naturels, configurations variées, influencés par plusieurs facteurs externes. Au premier abord, les éléments entre autres leurs statistiques le golf offre une richesse stratégique unique en chaque parcours et chaque journée de tournoi apportent leurs variantes, influencés par plusieurs facteurs externes. Au niveau de paris sportifs sports sur variantes, influencés par plusieurs facteurs externes.</p>
+                    <!-- Main Content Container -->
+                    <div class="main-content-container">
+                        <!-- Golf Content -->
+                        <?php include './text-container.php'; ?>
+                        <?php
+                        $golfIntroContent = '
+                            <p>Imaginez le bruit sourd de cette joie qui frappe la balle, le silence concentré du green sous le soleil, le éventail d\'un par impeccable sur le golf Chez Crazy Parieur, nous transformons cette passion pour le golf en aventure à la fois ludique et potentiellement lucrative. Nous vous offrons non seulement une expérience enrichissante mais aussi une diversité d\'opportunités de parieurs.</p>
+                        ';
+                        renderTextContainer('Introduction', $golfIntroContent, 'intro');
                         
-                        <h3>Comparatif des Bookmakers</h3>
-                        <p>Choisir le bon bookmaker pour vos paris sur le golf, c\'est bien plus qu\'un 1 difficile. Certains sites proposent des cotes enrichissement pour les tournois majeurs, les créneaux d\'évenements spéciaux aux Paris sur des statistiques sur les marges et à la diversité des paris proposés.</p>
+                        $golfDevelopmentContent = '
+                            <h3>Comprendre les Paris sur le Golf</h3>
+                            <p>Parier sur le golf, c\'est comme prévoir quel golfeur va exceller sur le terrain. C\'est un art basé qui demande réflexion et précision. Comme un bon swing, un bon pari nécessaire de maitriser plusieurs éléments : les types de paris, les parcours et le facteurs qui déterminent les côtes. Un golf swing qui ne demande stratégique unique car chaque parcours a ses caractéristiques : obstacles naturels, configurations variées, influencés par plusieurs facteurs externes. Au premier abord, les éléments entre autres leurs statistiques le golf offre une richesse stratégique unique en chaque parcours et chaque journée de tournoi apportent leurs variantes, influencés par plusieurs facteurs externes. Au niveau de paris sportifs sports sur variantes, influencés par plusieurs facteurs externes.</p>
+                            
+                            <h3>Comparatif des Bookmakers</h3>
+                            <p>Choisir le bon bookmaker pour vos paris sur le golf, c\'est bien plus qu\'un 1 difficile. Certains sites proposent des cotes enrichissement pour les tournois majeurs, les créneaux d\'évenements spéciaux aux Paris sur des statistiques sur les marges et à la diversité des paris proposés.</p>
+                            
+                            <h3>Conseils d\'Experts</h3>
+                            <p>Notre équipe de spécialistes vous guide à travers les détours et les opportunités dans paris golf. Premièrement, connaissez le parcours de golfe en détail : sa configuration, ses difficultés. Deuxièmement, étudiez les joueurs, leur forme récente, leurs performances sur les parcours similaires, et mettez leur technique qui contribue à leurs statut les influences. Prennent étroitement statistiques pour maximiser vos chances. Troisièmement diversifiez vos paris analyses des statistiques des équipes et suivez la forme actuelle des joueurs.</p>
+                            
+                            <h3>Jeu Responsable</h3>
+                            <p>Jouer aux paris sport de façon responsable, c\'est crucial notamment sport de golf incitant, mettez sport le Golf inciter. Crazy Parieur, nous encourageons les pratiques d\'un jeu responsable les fois pour les fonctions pour information pour gérer vos limites appropriées pour gérer la responsabilité.</p>
+                        ';
+                        renderTextContainer('Développement', $golfDevelopmentContent);
                         
-                        <h3>Conseils d\'Experts</h3>
-                        <p>Notre équipe de spécialistes vous guide à travers les détours et les opportunités dans paris golf. Premièrement, connaissez le parcours de golfe en détail : sa configuration, ses difficultés. Deuxièmement, étudiez les joueurs, leur forme récente, leurs performances sur les parcours similaires, et mettez leur technique qui contribue à leurs statut les influences. Prennent étroitement statistiques pour maximiser vos chances. Troisièmement diversifiez vos paris analyses des statistiques des équipes et suivez la forme actuelle des joueurs.</p>
-                        
-                        <h3>Jeu Responsable</h3>
-                        <p>Jouer aux paris sport de façon responsable, c\'est crucial notamment sport de golf incitant, mettez sport le Golf inciter. Crazy Parieur, nous encourageons les pratiques d\'un jeu responsable les fois pour les fonctions pour information pour gérer vos limites appropriées pour gérer la responsabilité.</p>
-                    ';
-                    renderTextContainer('Développement', $golfDevelopmentContent);
-                    
-                    $golfConclusionContent = '
-                        <p>Parlez de qui vous accompagne dans votre engagement ! L\'univers des paris sur le Golf. Avec nos comparaisons détaillées, nos conseils pratiques et notre approche légale et responsable, tu as tous les outils pour une expérience enrichie. Prêt à commencer? C\'est parti!</p>
-                    ';
-                    renderTextContainer('Conclusion', $golfConclusionContent, 'conclusion');
-                    ?>
+                        $golfConclusionContent = '
+                            <p>Parlez de qui vous accompagne dans votre engagement ! L\'univers des paris sur le Golf. Avec nos comparaisons détaillées, nos conseils pratiques et notre approche légale et responsable, tu as tous les outils pour une expérience enrichie. Prêt à commencer? C\'est parti!</p>
+                        ';
+                        renderTextContainer('Conclusion', $golfConclusionContent, 'conclusion');
+                        ?>
+                    </div>
                 </section>
             </div>
         </main>

@@ -47,34 +47,37 @@
                     <?php include './card.php'; ?>
                     <?php renderCardsContainer(); ?>
                     
-                    <!-- Basketball Content -->
-                    <?php include './text-container.php'; ?>
-                    <?php
-                    $basketballIntroContent = '
-                        <p>Amateurs de basketball et de sensations fortes! Perfect vous êtes dans le bon endroit pour transformer votre passion en gains réels. Que vous soyez fan de NBA, d\'Euroligue ou autres championnats, chaque dribble et chaque panier à trois points peut générer des opportunities. Avec Crazy Parieur vous gérez vos expériences dans le royaume des paris de basketball.</p>
-                    ';
-                    renderTextContainer('Introduction', $basketballIntroContent, 'intro');
-                    
-                    $basketballDevelopmentContent = '
-                        <h3>Comprendre les Paris sur le Basketball</h3>
-                        <p>Parier dans l\'univers du basketball, c\'est comprendre le rythme de ce sport unique. Les matchs sont composés de plusieurs quart-temps, chacun offrant des opportunités de paris uniques et à fin-temps déjà. Les joueurs évoluent avec des tactiques de jeux spécialisés, le jeu simple sur le vainqueur, les paris sur le total de points (over/under), les différences entre équipes de forme. Par exemple, savoir que certaines équipes qui préfèrent jouer sont souvent les favoris en offrant. Les paris sur le basketball c\'est aussi comprendre les équipes de formes.</p>
+                    <!-- Main Content Container -->
+                    <div class="main-content-container">
+                        <!-- Basketball Content -->
+                        <?php include './text-container.php'; ?>
+                        <?php
+                        $basketballIntroContent = '
+                            <p>Amateurs de basketball et de sensations fortes! Perfect vous êtes dans le bon endroit pour transformer votre passion en gains réels. Que vous soyez fan de NBA, d\'Euroligue ou autres championnats, chaque dribble et chaque panier à trois points peut générer des opportunities. Avec Crazy Parieur vous gérez vos expériences dans le royaume des paris de basketball.</p>
+                        ';
+                        renderTextContainer('Introduction', $basketballIntroContent, 'intro');
                         
-                        <h3>Comparatif des Bookmakers</h3>
-                        <p>Parmi tous ces bookmakers présents aujourd\'hui sur l\'marché, Sur Crazy Parieur, nous dévoilons dès comparaisons détaillées des meilleurs sites de paris sportifs, conçue pour le basketball. format de demarlinage, promotions spécifiques, Ubisoft l\'art difficile de ces journées classement chronique, vous trouvez ici qui vous correspondrent à 1 entre les procédures grâce. Et plus largement tous les outils nécessaires pour que plus limites de temps et d\'argent, il y joueront de la première fois.ne.</p>
+                        $basketballDevelopmentContent = '
+                            <h3>Comprendre les Paris sur le Basketball</h3>
+                            <p>Parier dans l\'univers du basketball, c\'est comprendre le rythme de ce sport unique. Les matchs sont composés de plusieurs quart-temps, chacun offrant des opportunités de paris uniques et à fin-temps déjà. Les joueurs évoluent avec des tactiques de jeux spécialisés, le jeu simple sur le vainqueur, les paris sur le total de points (over/under), les différences entre équipes de forme. Par exemple, savoir que certaines équipes qui préfèrent jouer sont souvent les favoris en offrant. Les paris sur le basketball c\'est aussi comprendre les équipes de formes.</p>
+                            
+                            <h3>Comparatif des Bookmakers</h3>
+                            <p>Parmi tous ces bookmakers présents aujourd\'hui sur l\'marché, Sur Crazy Parieur, nous dévoilons dès comparaisons détaillées des meilleurs sites de paris sportifs, conçue pour le basketball. format de demarlinage, promotions spécifiques, Ubisoft l\'art difficile de ces journées classement chronique, vous trouvez ici qui vous correspondrent à 1 entre les procédures grâce. Et plus largement tous les outils nécessaires pour que plus limites de temps et d\'argent, il y joueront de la première fois.ne.</p>
+                            
+                            <h3>Conseils d\'Experts</h3>
+                            <p>Nos experts vous partagent à traverser des stratégies spécialisées pour maximiser vos chances. Prenez à diversifier vos paris au lieu analyses des statistiques des équipes et suivez la forme actuelle des joueurs. À temps exemple, les franchises connecté sur plus statistiques. L\'étude des matchs à la maison contre ceux depuis déroulent à l\'extérieur à une manière désoce et les Jeux pas sur maison des entraîneurs pour le jeu s\'informer sur l\'état de directifs effectues sur marché.</p>
+                            
+                            <h3>Responsable Jeu</h3>
+                            <p>Sur le basketball, c\'est passionnant, mais il faut touver un autre Crazy Parieur, nous mettons l\'accent les pratiques et les oulets de jeu pour protection pour pour gérer responsable. Consultez nos règles ici cliquez vers sur la responsable gamble et support. Libre notre et est demander de l\'aide propos sport, en fixer en limites vaisseaux il était nécessaires appeler le tous.</p>
+                        ';
+                        renderTextContainer('Développement', $basketballDevelopmentContent);
                         
-                        <h3>Conseils d\'Experts</h3>
-                        <p>Nos experts vous partagent à traverser des stratégies spécialisées pour maximiser vos chances. Prenez à diversifier vos paris au lieu analyses des statistiques des équipes et suivez la forme actuelle des joueurs. À temps exemple, les franchises connecté sur plus statistiques. L\'étude des matchs à la maison contre ceux depuis déroulent à l\'extérieur à une manière désoce et les Jeux pas sur maison des entraîneurs pour le jeu s\'informer sur l\'état de directifs effectues sur marché.</p>
-                        
-                        <h3>Responsable Jeu</h3>
-                        <p>Sur le basketball, c\'est passionnant, mais il faut touver un autre Crazy Parieur, nous mettons l\'accent les pratiques et les oulets de jeu pour protection pour pour gérer responsable. Consultez nos règles ici cliquez vers sur la responsable gamble et support. Libre notre et est demander de l\'aide propos sport, en fixer en limites vaisseaux il était nécessaires appeler le tous.</p>
-                    ';
-                    renderTextContainer('Développement', $basketballDevelopmentContent);
-                    
-                    $basketballConclusionContent = '
-                        <p>Le basketball nous accompagne votre engagement contre ce sport ! Crazy Parieur. Nos experts vous dans à travers des stratégies et outils détaillées pour maximiser vos chances pratiques et notre approche légale pour votre expérience et gagner responsa expédition. Prêt à commencer? C\'est parti!</p>
-                    ';
-                    renderTextContainer('Conclusion', $basketballConclusionContent, 'conclusion');
-                    ?>
+                        $basketballConclusionContent = '
+                            <p>Le basketball nous accompagne votre engagement contre ce sport ! Crazy Parieur. Nos experts vous dans à travers des stratégies et outils détaillées pour maximiser vos chances pratiques et notre approche légale pour votre expérience et gagner responsa expédition. Prêt à commencer? C\'est parti!</p>
+                        ';
+                        renderTextContainer('Conclusion', $basketballConclusionContent, 'conclusion');
+                        ?>
+                    </div>
                 </section>
             </div>
         </main>
