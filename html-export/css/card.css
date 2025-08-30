@@ -2,7 +2,7 @@
 
 .cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     padding: 24px 40px;
     flex-wrap: nowrap;
