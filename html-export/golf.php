@@ -44,43 +44,8 @@
                     </div>
                     
                     <!-- Bookmaker Cards -->
-                    <div class="cards-container">
-                        <?php include './card.php'; ?>
-                        <?php
-                        renderCard(
-                            'Parions Sport.png',
-                            'ParionsSport',
-                            '100%',
-                            'JUSQU\'À 100€',
-                            '+1ER PARI REMBOURSÉ',
-                            'OBTENEZ LE BONUS',
-                            'https://www.enligne.parionssport.fdj.fr/?utm=Q7dK2a9tX3',
-                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise']
-                        );
-                        
-                        renderCard(
-                            'Winamax.png',
-                            'Winamax',
-                            '200%',
-                            'JUSQU\'À 200€',
-                            '+1ER PARI REMBOURSÉ',
-                            'OBTENEZ LE BONUS',
-                            'https://www.winamax.fr/?utm=z5C1Y8H4mV',
-                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise']
-                        );
-                        
-                        renderCard(
-                            'NetBet.png',
-                            'NetBet',
-                            '150%',
-                            'JUSQU\'À 150€',
-                            '+1ER PARI REMBOURSÉ',
-                            'OBTENEZ LE BONUS',
-                            'https://www.netbet.fr/?utm=Px3u0N6T7A',
-                            ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise']
-                        );
-                        ?>
-                    </div>
+                    <?php include './card.php'; ?>
+                    <?php renderCardsContainer(); ?>
                     
                     <!-- Golf Content -->
                     <?php include './text-container.php'; ?>

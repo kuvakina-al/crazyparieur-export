@@ -30,6 +30,65 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     echo '</div>';
 }
 
+function renderCardsContainer($cards = []) {
+    echo '<div class="cards-container">';
+    
+    // Default cards if none provided
+    if (empty($cards)) {
+        $cards = [
+            [
+                'logo' => 'Parions Sport.png',
+                'logoAlt' => 'ParionsSport',
+                'percentage' => '100%',
+                'amount' => 'JUSQU\'À 100€',
+                'subtitle' => '+1ER PARI REMBOURSÉ',
+                'buttonText' => 'OBTENEZ LE BONUS',
+                'buttonLink' => 'https://www.enligne.parionssport.fdj.fr/?utm=Q7dK2a9tX3',
+                'features' => ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise'],
+                'variant' => 'pattern'
+            ],
+            [
+                'logo' => 'Winamax.png',
+                'logoAlt' => 'Winamax',
+                'percentage' => '200%',
+                'amount' => 'JUSQU\'À 200€',
+                'subtitle' => '+1ER PARI REMBOURSÉ',
+                'buttonText' => 'OBTENEZ LE BONUS',
+                'buttonLink' => 'https://www.winamax.fr/?utm=z5C1Y8H4mV',
+                'features' => ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise'],
+                'variant' => 'pattern'
+            ],
+            [
+                'logo' => 'NetBet.png',
+                'logoAlt' => 'NetBet',
+                'percentage' => '150%',
+                'amount' => 'JUSQU\'À 150€',
+                'subtitle' => '+1ER PARI REMBOURSÉ',
+                'buttonText' => 'OBTENEZ LE BONUS',
+                'buttonLink' => 'https://www.netbet.fr/?utm=Px3u0N6T7A',
+                'features' => ['Retrait rapide', 'Bonus Exclusif', 'Aucune mise'],
+                'variant' => 'pattern'
+            ]
+        ];
+    }
+    
+    foreach ($cards as $card) {
+        renderCard(
+            $card['logo'],
+            $card['logoAlt'],
+            $card['percentage'],
+            $card['amount'],
+            $card['subtitle'],
+            $card['buttonText'],
+            $card['buttonLink'],
+            $card['features'],
+            $card['variant'] ?? ''
+        );
+    }
+    
+    echo '</div>';
+}
+
 function renderTitleSection() {
     echo '<div class="title-section">';
     echo '<h1 class="main-title">Paris Sportifs Faciles et Rapides</h1>';
