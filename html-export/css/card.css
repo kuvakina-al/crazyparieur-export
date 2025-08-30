@@ -424,6 +424,10 @@
     .mobile-text-container {
         display: flex;
     }
+    
+    .title-features {
+        display: none;
+    }
 }
 
 /* Title Section Styles */

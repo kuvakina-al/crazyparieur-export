@@ -99,6 +99,13 @@ function renderTitleSection() {
     echo '<div class="title-section">';
     echo '<h1 class="main-title">Paris Sportifs Faciles et Rapides</h1>';
     echo '<p class="main-subtitle">Crazy Parieur vous propose un accompagnement complet: astuces, stratégies et comparatifs pour réussir</p>';
+    
+    // Mobile text container
+    echo '<div class="mobile-text-container">';
+    echo '<div class="checkbox-icon"></div>';
+    echo '<div class="text-content">Découvrez la plus grande sélection des meilleures offres de bonus</div>';
+    echo '</div>';
+    
     echo '<div class="title-features">';
     echo '<div class="title-feature">';
     echo '<span class="feature-check">✓</span>';
