@@ -3,11 +3,11 @@
 .cards-container {
     display: flex;
     justify-content: center;
-    gap: 24px;
-    padding: 24px 64px;
+    gap: 20px;
+    padding: 24px 40px;
     flex-wrap: nowrap;
-    width: 1608px;
-    height: 471px;
+    width: 1400px;
+    height: 420px;
     margin: 0 auto;
     opacity: 1;
 }
@@ -15,15 +15,15 @@
 .card {
     background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%);
     border: 1px solid #48485B94;
-    border-radius: 20px;
-    padding: 24px;
+    border-radius: 18px;
+    padding: 20px;
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    width: 370.6666564941406px;
-    height: 423px;
-    min-width: 313px;
+    width: 320px;
+    height: 380px;
+    min-width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,39 +37,39 @@
 }
 
 .card-logo {
-    width: 322.6666564941406px;
-    height: 90px;
+    width: 280px;
+    height: 85px;
     gap: 10px;
     opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .card-logo img {
-    max-height: 50px;
-    max-width: 200px;
+    max-height: 55px;
+    max-width: 220px;
     object-fit: contain;
 }
 
 .card-offer {
-    width: 322.6666564941406px;
-    height: 66px;
-    gap: 20px;
+    width: 280px;
+    height: 60px;
+    gap: 18px;
     opacity: 1;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
 .card-main-text {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 .card-percentage {
@@ -91,7 +91,7 @@
 
 .card-subtitle {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 120%;
     letter-spacing: 0%;
@@ -103,12 +103,12 @@
 .card-button {
     background: linear-gradient(180deg, #01FC0B 0%, #03B10A 100%);
     color: #000000;
-    width: 322.6666564941406px;
-    height: 64px;
+    width: 280px;
+    height: 56px;
     border: 2px solid #FFFFFF3D;
-    border-radius: 10px;
+    border-radius: 9px;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -120,8 +120,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
-    gap: 10px;
+    margin-bottom: 18px;
+    gap: 9px;
     opacity: 1;
 }
 
@@ -137,9 +137,9 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 322.6666564941406px;
-    height: 80px;
-    gap: 24px;
+    width: 280px;
+    height: 70px;
+    gap: 20px;
     opacity: 1;
     display: flex;
     flex-direction: column;
@@ -149,10 +149,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 322.6666564941406px;
-    height: 16px;
-    gap: 10px;
-    font-size: 16px;
+    width: 280px;
+    height: 14px;
+    gap: 9px;
+    font-size: 14px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 500;
     line-height: 120%;
@@ -166,24 +166,24 @@
 }
 
 .card-features .feature-check {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     background-color: #1AF6C2;
     border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    gap: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    gap: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
     opacity: 1;
 }
 
 .card-features .feature-check::before {
     content: '✓';
     color: #000000;
-    font-size: 8px;
+    font-size: 7px;
     font-weight: bold;
 }
 
@@ -194,15 +194,15 @@
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
     border: none !important;
-    border-radius: 20px;
-    padding: 24px;
+    border-radius: 18px;
+    padding: 20px;
     text-align: center;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    width: 370.6666564941406px;
-    height: 423px;
-    min-width: 313px;
+    width: 320px;
+    height: 380px;
+    min-width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
