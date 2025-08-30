@@ -159,6 +159,7 @@
     letter-spacing: 0%;
     color: #1AF6C2;
     opacity: 1;
+    flex-direction: row-reverse;
 }
 
 .card-features li:last-child {
