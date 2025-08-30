@@ -53,8 +53,11 @@
 .card-logo img {
     width: 241.9867706298828px;
     height: 90px;
+    max-width: 886px;
+    max-height: 356px;
     object-fit: contain;
     opacity: 1;
+    padding: 10px;
 }
 
 .card-offer {
