@@ -39,7 +39,7 @@
 
 .card-logo {
     width: 280px;
-    height: 100px;
+    height: 110px;
     gap: 10px;
     opacity: 1;
     display: flex;
@@ -49,8 +49,8 @@
 }
 
 .card-logo img {
-    max-height: 70px;
-    max-width: 250px;
+    max-height: 80px;
+    max-width: 260px;
     object-fit: contain;
 }
 
@@ -141,7 +141,7 @@
 .card-features {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
     width: 280px;
     height: 70px;
     gap: 20px;
