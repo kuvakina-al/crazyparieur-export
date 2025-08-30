@@ -73,8 +73,8 @@
                         );
                         
                         renderCard(
-                            'NetBet.png',
-                            'NetBet',
+                            'Unibet Logo.png',
+                            'Unibet',
                             '150%',
                             'JUSQU\'À 150€',
                             '+1ER PARI REMBOURSÉ',
