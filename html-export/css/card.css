@@ -3,11 +3,12 @@
 .cards-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 24px 40px;
+    padding: 40px;
     flex-wrap: nowrap;
-    width: 1400px;
-    height: 420px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     opacity: 1;
 }
