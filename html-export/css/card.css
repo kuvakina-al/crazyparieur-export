@@ -5,15 +5,17 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    width: 1608px;
-    height: 471px;
+    max-width: 1608px;
+    width: 100%;
+    height: auto;
+    min-height: 471px;
     opacity: 1;
     padding-top: 24px;
     padding-right: 64px;
     padding-bottom: 24px;
     padding-left: 64px;
     margin: 0 auto;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -290,14 +292,25 @@
 }
 
 /* Mobile Styles */
+@media (max-width: 1200px) {
+    .cards-container {
+        padding-right: 32px;
+        padding-left: 32px;
+        gap: 20px;
+    }
+}
+
 @media (max-width: 767px) {
     .cards-container {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 20px;
-        padding: 30px 0;
+        padding: 30px 20px;
+        align-items: center;
     }
     
     .card {
+        width: 100%;
+        max-width: 370px;
         padding: 25px 20px;
     }
     
