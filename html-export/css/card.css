@@ -15,13 +15,15 @@
     border-radius: 20px;
     padding: 24px;
     text-align: center;
-    border: 1px solid rgba(72, 72, 91, 0.58);
+    border: 1px solid #48485B94;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    width: 370.67px;
+    width: 370.6666564941406px;
     height: 423px;
     min-width: 313px;
+    justify-content: space-between;
+    opacity: 1;
 }
 
 .card:hover {
