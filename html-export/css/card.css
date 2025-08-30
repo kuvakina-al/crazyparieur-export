@@ -189,11 +189,10 @@
 
 /* Card Pattern Variant */
 .card-pattern {
-    background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%), url('../images/card pattern.jpg');
+    background: linear-gradient(180deg, rgba(49, 49, 63, 0.95) 0%, rgba(26, 26, 33, 0.95) 100%), url('../images/card pattern.jpg');
     background-size: cover, cover;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-    background-blend-mode: multiply;
     border: none !important;
     border-radius: 20px;
     padding: 24px;
@@ -211,11 +210,10 @@
 }
 
 .card-pattern:hover {
-    background: linear-gradient(180deg, #3F3F50 0%, #1F1F28 100%), url('../images/card pattern.jpg');
+    background: linear-gradient(180deg, rgba(63, 63, 80, 0.95) 0%, rgba(31, 31, 40, 0.95) 100%), url('../images/card pattern.jpg');
     background-size: cover, cover;
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
-    background-blend-mode: multiply;
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
 }
