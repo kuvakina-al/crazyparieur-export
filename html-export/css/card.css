@@ -40,14 +40,14 @@
 }
 
 .card-logo {
-    width: 290px;
+    width: 280px;
     height: 90px;
     gap: 10px;
     opacity: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 
 .card-logo img {
@@ -58,11 +58,11 @@
 }
 
 .card-offer {
-    width: 290px;
+    width: 280px;
     height: 66px;
     gap: 20px;
     opacity: 1;
-    margin-bottom: 25px;
+    margin: 0 auto 25px auto;
 }
 
 .card-main-text {
@@ -116,12 +116,12 @@
 .card-button {
     background: linear-gradient(180deg, #01FC0B 0%, #03B10A 100%);
     color: #000000;
-    width: 290px;
+    width: 280px;
     height: 64px;
     border: 2px solid #FFFFFF3D;
     border-radius: 10px;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -133,7 +133,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     gap: 10px;
     opacity: 1;
 }
@@ -148,9 +148,9 @@
 
 .card-features {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 290px;
+    width: 280px;
     height: 80px;
     gap: 16px;
     opacity: 1;
@@ -162,7 +162,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 290px;
+    width: 280px;
     height: 16px;
     gap: 10px;
     font-size: 16px;
