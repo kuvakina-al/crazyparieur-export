@@ -3,8 +3,8 @@
 .cards-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    padding: 40px 0;
+    gap: 24px;
+    padding: 24px 64px;
     flex-wrap: wrap;
 }
 
