@@ -5,10 +5,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    max-width: 1608px;
-    width: 100%;
-    height: auto;
-    min-height: 471px;
+    width: 1608px;
+    height: 471px;
     opacity: 1;
     padding-top: 24px;
     padding-right: 64px;
@@ -27,7 +25,7 @@
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    width: 350px;
+    width: 370.6666564941406px;
     height: 423px;
     min-width: 313px;
     display: flex;
