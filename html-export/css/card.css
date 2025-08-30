@@ -38,7 +38,7 @@
 }
 
 .card-logo {
-    width: 280px;
+    width: 100%;
     height: 110px;
     gap: 10px;
     opacity: 1;
@@ -55,11 +55,15 @@
 }
 
 .card-offer {
-    width: 280px;
+    width: 100%;
     height: 60px;
     gap: 18px;
     opacity: 1;
     margin-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-main-text {
@@ -108,7 +112,8 @@
 .card-button {
     background: linear-gradient(180deg, #01FC0B 0%, #03B10A 100%);
     color: #000000;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     height: 56px;
     border: 2px solid #FFFFFF3D;
     border-radius: 9px;
@@ -125,7 +130,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 18px;
+    margin: 0 auto 18px auto;
     gap: 9px;
     opacity: 1;
 }
@@ -141,8 +146,8 @@
 .card-features {
     list-style: none;
     margin: 0;
-    padding: 0 15px;
-    width: 280px;
+    padding: 0 10px;
+    width: 100%;
     height: 70px;
     gap: 20px;
     opacity: 1;
@@ -154,7 +159,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 280px;
+    width: 100%;
     height: 14px;
     gap: 9px;
     font-size: 14px;
@@ -282,48 +287,87 @@
 /* Mobile Styles */
 @media (max-width: 767px) {
     .cards-container {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 20px;
-        padding: 30px 0;
+        padding: 20px;
+        width: 100%;
+        height: auto;
     }
     
     .card {
-        padding: 25px 20px;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-width: unset;
+        margin: 0 auto;
+        padding: 20px 15px;
     }
     
-    .card-percentage {
-        font-size: 28px;
+    .card-logo {
+        height: 80px;
+        margin-bottom: 15px;
     }
     
-    .card-amount {
-        font-size: 20px;
+    .card-logo img {
+        max-height: 60px;
+        max-width: 200px;
+    }
+    
+    .card-main-text {
+        font-size: 24px;
+    }
+    
+    .card-subtitle {
+        font-size: 16px;
     }
     
     .card-button {
-        padding: 12px 25px;
-        font-size: 14px;
+        height: 50px;
+        font-size: 18px;
+        max-width: 100%;
+    }
+    
+    .card-features {
+        padding: 0 5px;
+        gap: 15px;
+    }
+    
+    .card-features li {
+        font-size: 13px;
     }
 }
 
 @media (max-width: 479px) {
     .card {
-        padding: 20px 15px;
+        padding: 18px 12px;
+        max-width: 320px;
     }
     
     .card-logo {
-        height: 50px;
+        height: 70px;
+        margin-bottom: 12px;
     }
     
     .card-logo img {
-        max-height: 40px;
+        max-height: 50px;
+        max-width: 180px;
     }
     
-    .card-percentage {
-        font-size: 24px;
+    .card-main-text {
+        font-size: 22px;
     }
     
-    .card-amount {
-        font-size: 18px;
+    .card-subtitle {
+        font-size: 15px;
+    }
+    
+    .card-button {
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .card-features li {
+        font-size: 12px;
     }
 }
 
