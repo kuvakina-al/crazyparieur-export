@@ -35,7 +35,7 @@
                     
                     <!-- Green Frame with Checkbox -->
                     <div style="display: flex; align-items: center; justify-content: center; margin: 20px auto 40px auto; max-width: 506px; height: 48px; background: linear-gradient(180deg, #1E2334 0%, #0A1020 100%); border-radius: 999px; padding: 12px 24px; gap: 12px;">
-                        <div style="width: 24px; height: 24px; border: 1px solid #00ff41; border-radius: 4px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                        <div style="width: 24px; height: 24px; background-color: #04FF25; border: 1px solid #04FF25; border-radius: 4px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                             <svg width="12.61" height="10.36" viewBox="0 0 13 11" style="margin-top: 3.25px; margin-left: 1.86px;">
                                 <path d="M1 5.5L5 9.5L12 1.5" stroke="#0A1020" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
