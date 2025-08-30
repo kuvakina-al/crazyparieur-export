@@ -189,35 +189,37 @@
 
 /* Card Pattern Variant */
 .card-pattern {
-    background-image: url('../images/card pattern.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%), url('../images/card pattern.jpg');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
     border: none !important;
-}
-
-.card-pattern::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%);
-    mix-blend-mode: multiply;
-    pointer-events: none;
-    z-index: 1;
-}
-
-.card-pattern:hover::before {
-    background: linear-gradient(180deg, #3F3F50 0%, #1F1F28 100%);
-}
-
-.card-pattern > * {
+    border-radius: 20px;
+    padding: 24px;
+    text-align: center;
+    transition: all 0.3s ease;
     position: relative;
-    z-index: 2;
+    overflow: hidden;
+    width: 370.6666564941406px;
+    height: 423px;
+    min-width: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 1;
 }
+
+.card-pattern:hover {
+    background: linear-gradient(180deg, #3F3F50 0%, #1F1F28 100%), url('../images/card pattern.jpg');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 65, 0.2);
+}
+
 
 /* Claim Button States */
 .claim-button-container {
