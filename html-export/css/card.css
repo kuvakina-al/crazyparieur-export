@@ -24,6 +24,8 @@
     width: 370.6666564941406px;
     height: 423px;
     min-width: 313px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     opacity: 1;
 }
