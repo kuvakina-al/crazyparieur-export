@@ -2,12 +2,13 @@
 
 .cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     padding: 24px 64px;
     flex-wrap: wrap;
-    width:1608px;
+    max-width: 1608px;
     height: 471px;
+    margin: 0 auto;
 }
 
 .card {
