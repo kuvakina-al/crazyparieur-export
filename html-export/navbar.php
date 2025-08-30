@@ -8,9 +8,9 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         </a>
         
         <ul class="navbar-nav desktop-only navbar-menu-container">
-            <li><a href="index.php" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>"><span>Accueil</span></a></li>
-            <li><a href="golf.php" class="<?php echo ($current_page == 'golf') ? 'active' : ''; ?>"><span>Golf</span></a></li>
-            <li><a href="basketball.php" class="<?php echo ($current_page == 'basketball') ? 'active' : ''; ?>"><span>Basketball</span></a></li>
+            <li><a href="index.php" class="<?php echo ($current_page == 'index') ? 'active' : ''; ?>">Accueil</a></li>
+            <li><a href="golf.php" class="<?php echo ($current_page == 'golf') ? 'active' : ''; ?>">Golf</a></li>
+            <li><a href="basketball.php" class="<?php echo ($current_page == 'basketball') ? 'active' : ''; ?>">Basketball</a></li>
         </ul>
         
         <div class="navbar-right">
