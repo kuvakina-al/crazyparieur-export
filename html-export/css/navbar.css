@@ -24,7 +24,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 28px;
-    gap: 220px;
+    gap: 180px;
 }
 
 .navbar-logo {
@@ -37,6 +37,7 @@
     gap: 8px;
     padding: 8px;
     opacity: 1;
+    margin-right: 20px;
 }
 
 .navbar-logo-img {
@@ -113,6 +114,7 @@
     width: 480px;
     height: 42px;
     opacity: 1;
+    margin-left: -40px;
 }
 
 .warning-text {
