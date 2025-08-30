@@ -80,7 +80,8 @@
 }
 
 .card-button:hover {
-    background-color: #00cc33;
+    background-color: #1a5d1a;
+    color: #ffffff;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 255, 65, 0.3);
 }
