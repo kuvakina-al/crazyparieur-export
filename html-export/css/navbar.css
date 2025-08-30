@@ -89,7 +89,7 @@
 .navbar-nav a:hover,
 .navbar-nav a.active {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
@@ -114,7 +114,7 @@
     width: 480px;
     height: 42px;
     opacity: 1;
-    margin-left: -40px;
+    margin-left: 20px;
 }
 
 .warning-text {
