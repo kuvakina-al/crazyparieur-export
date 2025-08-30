@@ -5,8 +5,10 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    width: 1608px;
-    height: 471px;
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    min-height: 471px;
     opacity: 1;
     padding-top: 24px;
     padding-right: 64px;
