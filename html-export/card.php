@@ -28,7 +28,7 @@ function renderCard($logo, $logoAlt, $percentage, $amount, $subtitle, $buttonTex
     if (!empty($features)) {
         echo '<ul class="card-features">';
         foreach ($features as $feature) {
-            echo '<li><span class="feature-check"></span>' . $feature . '</li>';
+            echo '<li>' . $feature . '<span class="feature-check"></span></li>';
         }
         echo '</ul>';
     }

@@ -168,6 +168,7 @@
     letter-spacing: 0%;
     color: #1AF6C2;
     opacity: 1;
+    flex-direction: row;
 }
 
 .card-features li:last-child {
@@ -198,10 +199,10 @@
 
 /* Card Pattern Variant */
 .card-pattern {
-    background-image: url('../images/card pattern.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #31313F 0%, #1A1A21 100%), url('../images/card pattern.jpg');
+    background-size: cover, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
     position: relative;
 }
 
