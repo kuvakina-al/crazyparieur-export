@@ -211,7 +211,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    border: none;
+    border: none !important;
 }
 
 .card-pattern::before {
