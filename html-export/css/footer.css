@@ -38,16 +38,16 @@
 
 .footer-top-section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
-    height: 63.25px;
-    gap: 36.67px;
+    gap: 40px;
 }
 
 .footer-logo-section {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .footer-logo-img {
@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+    flex: 1;
 }
 
 .footer-copyright-text {
