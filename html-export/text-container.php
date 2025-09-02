@@ -86,4 +86,87 @@ function renderBasketballPageContent() {
     ';
     renderTextContainer('Développement', $basketballContent);
 }
+
+// Privacy Policy content - PLACEHOLDER - Please provide Figma content
+function renderPrivacyPolicyContent() {
+    $privacyContent = '
+        <p>[PLACEHOLDER - Please provide the text content from Figma for the Privacy Policy page]</p>
+        
+        <h3>Introduction</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Collecte de Données</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Utilisation des Données</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Droits des Utilisateurs</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Contact</h3>
+        <p>[Content needed from Figma]</p>
+    ';
+    renderTextContainer('Développement', $privacyContent);
+}
+
+// Responsible Gaming content - PLACEHOLDER - Please provide Figma content
+function renderResponsibleGamingContent() {
+    $responsibleContent = '
+        <p>[PLACEHOLDER - Please provide the text content from Figma for the Responsible Gaming page]</p>
+        
+        <h3>Notre Engagement</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Prévention</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Signes de Dépendance</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Aide et Support</h3>
+        <p>[Content needed from Figma]</p>
+    ';
+    renderTextContainer('Développement', $responsibleContent);
+}
+
+// ANJ content - PLACEHOLDER - Please provide Figma content  
+function renderANJContent() {
+    $anjContent = '
+        <p>[PLACEHOLDER - Please provide the text content from Figma for the ANJ page]</p>
+        
+        <h3>Qu\'est-ce que l\'ANJ ?</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Missions de l\'ANJ</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Protection des Joueurs</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Contact</h3>
+        <p>[Content needed from Figma]</p>
+    ';
+    renderTextContainer('Développement', $anjContent);
+}
+
+// Terms of Use content - PLACEHOLDER - Please provide Figma content
+function renderTermsOfUseContent() {
+    $termsContent = '
+        <p>[PLACEHOLDER - Please provide the text content from Figma for the Terms of Use page]</p>
+        
+        <h3>Introduction</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Utilisation du Site</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Responsabilités</h3>
+        <p>[Content needed from Figma]</p>
+        
+        <h3>Dispositions Légales</h3>
+        <p>[Content needed from Figma]</p>
+    ';
+    renderTextContainer('Développement', $termsContent);
+}
 ?>

@@ -26,64 +26,13 @@
         <main class="main-content">
             <div class="container">
                 <section class="section">
-                    <h1 class="page-title">Découvrez l'Autorité Nationale des Jeux (ANJ)</h1>
+                    <h1 class="page-title-legal">Découvrez l'Autorité Nationale des Jeux (ANJ)</h1>
                     
-                    <?php include './text-container.php'; ?>
-                    <?php
-                    $introContent = '
-                        <p>L\'Autorité Nationale des Jeux (ANJ) est l\'organisme français de régulation des jeux d\'argent et de hasard. Créée en 2020, elle succède à l\'ARJEL et élargit ses compétences à l\'ensemble du secteur des jeux.</p>
-                    ';
-                    renderTextContainer('Qu\'est-ce que l\'ANJ ?', $introContent);
-                    
-                    $missionContent = '
-                        <h3>Missions Principales</h3>
-                        <ul>
-                            <li>Réguler et contrôler les opérateurs de jeux en ligne</li>
-                            <li>Délivrer les licences d\'exploitation</li>
-                            <li>Protéger les joueurs, notamment les mineurs</li>
-                            <li>Lutter contre le jeu illégal</li>
-                            <li>Prévenir l\'addiction au jeu</li>
-                            <li>Assurer la transparence des opérations</li>
-                        </ul>
-                        
-                        <h3>Domaines de Compétence</h3>
-                        <p>L\'ANJ régule plusieurs secteurs :</p>
-                        <ul>
-                            <li>Paris sportifs en ligne</li>
-                            <li>Poker en ligne</li>
-                            <li>Jeux de loterie</li>
-                            <li>Jeux dans les casinos physiques</li>
-                        </ul>
-                    ';
-                    renderTextContainer('Missions de l\'ANJ', $missionContent);
-                    
-                    $protectionContent = '
-                        <h3>Protection des Joueurs</h3>
-                        <p>L\'ANJ met en place des mesures strictes pour protéger les joueurs :</p>
-                        <ul>
-                            <li>Vérification de l\'âge et de l\'identité</li>
-                            <li>Outils de limitation et d\'auto-exclusion</li>
-                            <li>Contrôle de la publicité</li>
-                            <li>Sensibilisation aux risques</li>
-                            <li>Partenariats avec des associations d\'aide</li>
-                        </ul>
-                        
-                        <h3>Sanctions et Contrôles</h3>
-                        <p>L\'ANJ dispose de pouvoirs de sanction :</p>
-                        <ul>
-                            <li>Contrôles sur site et à distance</li>
-                            <li>Amendes administratives</li>
-                            <li>Suspension ou retrait de licence</li>
-                            <li>Blocage des sites illégaux</li>
-                        </ul>
-                        
-                        <h3>Contact ANJ</h3>
-                        <p><strong>Site officiel :</strong> <a href="https://anj.fr" target="_blank">www.anj.fr</a></p>
-                        <p><strong>Adresse :</strong> 99-101 rue Leblanc, 75015 Paris</p>
-                        <p><strong>Téléphone :</strong> 01 49 09 87 00</p>
-                    ';
-                    renderTextContainer('Protection et Contrôle', $protectionContent, 'warning');
-                    ?>
+                    <!-- Main Content Container -->
+                    <div class="main-content-container">
+                        <?php include './text-container.php'; ?>
+                        <?php renderANJContent(); ?>
+                    </div>
                 </section>
             </div>
         </main>
