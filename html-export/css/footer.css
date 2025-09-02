@@ -32,7 +32,7 @@
 .footer-right-section {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
     flex: 1;
 }
 
