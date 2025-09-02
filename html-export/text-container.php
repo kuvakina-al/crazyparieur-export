@@ -117,7 +117,15 @@ function renderBasketballPageContent() {
         <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
         <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
 
-    
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
         ';
     renderTextContainer('', $basketballContent);
 }
