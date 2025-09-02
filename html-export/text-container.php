@@ -203,63 +203,48 @@ function renderANJContent() {
 
 // Terms of Use content - Content added from Figma
 function renderTermsOfUseContent() {
-    renderTextContainer(
-        "Introduction", 
-        "<h3>Présentation du Site</h3>
-        <p>Crazy Parieur est une plateforme d'affiliation spécialisée dans les paris sportifs. Le Site fournit des informations et des liens vers des sites partenaires de paris sportifs, sans proposer directement de services de jeu ou de paris.</p>
+    $termsContent = '
+        <h2>Introduction</h2>
+        <h3>Présentation du Site</h3>
+        <p>Crazy Parieur est une plateforme d\'affiliation spécialisée dans les paris sportifs. Le Site fournit des informations et des liens vers des sites partenaires de paris sportifs, sans proposer directement de services de jeu ou de paris.</p>
         
         <h3>Services Proposés</h3>
         <p>Le Site propose les services suivants :</p>
         <ul>
             <li>Redirection vers des sites de paris sportifs partenaires</li>
-            <li>Publication d'analyses, de statistiques et de conseils relatifs aux paris sportifs</li>
+            <li>Publication d\'analyses, de statistiques et de conseils relatifs aux paris sportifs</li>
             <li>Présentation des offres promotionnelles et bonus proposés par nos partenaires</li>
-        </ul>"
-    );
-    
-    renderTextContainer(
-        "Responsabilités", 
-        "<h3>Responsabilité de l'Utilisateur</h3>
-        <p>L'utilisateur s'engage à ne pas utiliser le Site pour des activités illégales et à respecter les lois et règlements en vigueur. L'utilisateur reconnaît qu'il doit vérifier que la législation de son pays l'autorise à utiliser les services des sites partenaires avant toute inscription.</p>
+        </ul>
+
+        <h2>Responsabilités</h2>
+        <h3>Responsabilité de l\'Utilisateur</h3>
+        <p>L\'utilisateur s\'engage à ne pas utiliser le Site pour des activités illégales et à respecter les lois et règlements en vigueur. L\'utilisateur reconnaît qu\'il doit vérifier que la législation de son pays l\'autorise à utiliser les services des sites partenaires avant toute inscription.</p>
         
         <h3>Responsabilité du Site</h3>
-        <p>Crazy Parieur agit en tant qu'intermédiaire et ne peut être tenu responsable des actions, erreurs ou politiques de ses sites partenaires. Le Site décline toute responsabilité concernant les pertes financières ou dommages indirects résultant de l'utilisation des services proposés par les sites partenaires.</p>"
-    );
-    
-    renderTextContainer(
-        "Limitations", 
-        "<p>Les informations communiquées sur le Site sont fournies à titre informatif. Bien que nous nous efforcions de les maintenir exactes et à jour, des inexactitudes ou des omissions peuvent survenir.</p>"
-    );
-    
-    renderTextContainer(
-        "Propriété Intellectuelle", 
-        "<p>Les contenus du Site, incluant textes, graphiques, logos, images, ainsi que leur sélection et agencement, sont la propriété exclusive de Crazy Parieur, sauf mention contraire. Toute reproduction non autorisée de ces contenus, totale ou partielle, peut donner lieu à des poursuites civiles et/ou pénales.</p>"
-    );
-    
-    renderTextContainer(
-        "Protection des Données et Vie Privée", 
-        "<p>Crazy Parieur respecte la vie privée de ses utilisateurs et s'engage à protéger les données personnelles. Conformément au Règlement Général sur la Protection des Données (RGPD), le Site ne collecte aucune donnée personnelle, ne pratique aucun profiling et n'utilise aucun cookie de suivi personnel.</p>"
-    );
-    
-    renderTextContainer(
-        "Droit Applicable et Juridiction", 
-        "<p>Les présentes CGU sont régies par le droit français. Tout litige relatif à leur interprétation ou exécution relèvera des tribunaux compétents en France.</p>"
-    );
-    
-    renderTextContainer(
-        "Modifications des CGU", 
-        "<p>Nous nous réservons le droit de modifier ces CGU à tout moment. Les modifications prennent effet dès leur publication sur le Site. Il appartient à l'utilisateur de consulter régulièrement les CGU pour se tenir informé des éventuelles modifications.</p>"
-    );
-    
-    renderTextContainer(
-        "Contact", 
-        "<p>Pour toute question ou réclamation concernant les CGU ou les services du Site, contactez-nous à : contact@crazy-parieur.fr</p>"
-    );
-    
-    renderTextContainer(
-        "Dispositions Finales", 
-        "<p>Merci de visiter Crazy Parieur. Nous espérons que notre site répondra à vos attentes en matière d'informations sur les paris sportifs et vous accompagnera dans vos démarches.</p>
-        <p>Le présent texte constitue l'intégralité des Conditions Générales d'Utilisation du site Crazy Parieur et remplace tout accord antérieur relatif à ces conditions.</p>"
-    );
+        <p>Crazy Parieur agit en tant qu\'intermédiaire et ne peut être tenu responsable des actions, erreurs ou politiques de ses sites partenaires. Le Site décline toute responsabilité concernant les pertes financières ou dommages indirects résultant de l\'utilisation des services proposés par les sites partenaires.</p>
+
+        <h2>Limitations</h2>
+        <p>Les informations communiquées sur le Site sont fournies à titre informatif. Bien que nous nous efforcions de les maintenir exactes et à jour, des inexactitudes ou des omissions peuvent survenir.</p>
+
+        <h2>Propriété Intellectuelle</h2>
+        <p>Les contenus du Site, incluant textes, graphiques, logos, images, ainsi que leur sélection et agencement, sont la propriété exclusive de Crazy Parieur, sauf mention contraire. Toute reproduction non autorisée de ces contenus, totale ou partielle, peut donner lieu à des poursuites civiles et/ou pénales.</p>
+
+        <h2>Protection des Données et Vie Privée</h2>
+        <p>Crazy Parieur respecte la vie privée de ses utilisateurs et s\'engage à protéger les données personnelles. Conformément au Règlement Général sur la Protection des Données (RGPD), le Site ne collecte aucune donnée personnelle, ne pratique aucun profiling et n\'utilise aucun cookie de suivi personnel.</p>
+
+        <h2>Droit Applicable et Juridiction</h2>
+        <p>Les présentes CGU sont régies par le droit français. Tout litige relatif à leur interprétation ou exécution relèvera des tribunaux compétents en France.</p>
+
+        <h2>Modifications des CGU</h2>
+        <p>Nous nous réservons le droit de modifier ces CGU à tout moment. Les modifications prennent effet dès leur publication sur le Site. Il appartient à l\'utilisateur de consulter régulièrement les CGU pour se tenir informé des éventuelles modifications.</p>
+
+        <h2>Contact</h2>
+        <p>Pour toute question ou réclamation concernant les CGU ou les services du Site, contactez-nous à : contact@crazy-parieur.fr</p>
+
+        <h2>Dispositions Finales</h2>
+        <p>Merci de visiter Crazy Parieur. Nous espérons que notre site répondra à vos attentes en matière d\'informations sur les paris sportifs et vous accompagnera dans vos démarches.</p>
+        <p>Le présent texte constitue l\'intégralité des Conditions Générales d\'Utilisation du site Crazy Parieur et remplace tout accord antérieur relatif à ces conditions.</p>
+    ';
+    renderTextContainer('', $termsContent);
 }
 ?>
