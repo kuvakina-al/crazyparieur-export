@@ -138,25 +138,56 @@ function renderBasketballPageContent() {
     renderTextContainer('', $basketballContent);
 }
 
-// Privacy Policy content - PLACEHOLDER - Please provide Figma content
+// Privacy Policy content
 function renderPrivacyPolicyContent() {
     $privacyContent = '
-        <p>[PLACEHOLDER - Please provide the text content from Figma for the Privacy Policy page]</p>
+        <h2>Introduction</h2>
+        <p>Crazy Parieur s\'engage à protéger la vie privée de ses visiteurs. Cette politique de confidentialité explique nos pratiques concernant les données, notamment le fait que nous ne collectons aucune donnée personnelle. Elle vous permet de comprendre notre utilisation des cookies et notre respect de la réglementation RGPD.</p>
         
-        <h3>Introduction</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Données Collectées</h2>
+        <h3>Aucune Donnée Personnelle</h3>
+        <p>Crazy Parieur ne collecte aucune donnée personnelle de ses utilisateurs. Notre site étant purement informatif et d\'affiliation, il ne propose ni inscription ni création de compte utilisateur.</p>
         
-        <h3>Collecte de Données</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Cookies</h2>
+        <h3>Utilisation des Cookies</h3>
+        <p>Notre site utilise uniquement des cookies techniques nécessaires à son fonctionnement ainsi que des cookies analytiques anonymes pour comprendre l\'utilisation de notre site. Ces cookies nous permettent d\'améliorer la qualité de notre contenu et d\'offrir une meilleure expérience de navigation.</p>
         
-        <h3>Utilisation des Données</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Finalités du Traitement</h2>
+        <p>Les informations recueillies via les cookies nous servent à :</p>
+        <ul>
+            <li>Comprendre le comportement global des visiteurs sur notre site</li>
+            <li>Améliorer nos contenus et notre ergonomie</li>
+            <li>Maintenir la sécurité technique de notre plateforme</li>
+        </ul>
         
-        <h3>Droits des Utilisateurs</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Conservation des Données</h2>
+        <p>Les données collectées par les cookies sont stockées de manière anonyme et conservées selon les recommandations de la CNIL et la législation RGPD en vigueur.</p>
         
-        <h3>Contact</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Vos Droits selon le RGPD</h2>
+        <p>Bien que nous ne collections pas de données personnelles, nous souhaitons vous informer de vos droits fondamentaux selon le RGPD :</p>
+        <ul>
+            <li>Droit à l\'information</li>
+            <li>Droit à l\'effacement (droit à l\'oubli)</li>
+            <li>Droit de rectification</li>
+            <li>Droit d\'opposition</li>
+        </ul>
+        
+        <h2>Sécurité</h2>
+        <p>Nous mettons en place des mesures de sécurité appropriées pour protéger notre site et nos visiteurs contre tout accès non autorisé, modification, divulgation ou destruction des informations que nous détenons.</p>
+        
+        <h2>Partage avec des Tiers</h2>
+        <p>Aucune donnée n\'est partagée avec des tiers, puisque nous ne collectons pas de données personnelles. Les informations obtenues via les cookies ne permettent pas d\'identifier individuellement les utilisateurs.</p>
+        
+        <h2>Transferts de Données</h2>
+        <p>N\'ayant pas de données personnelles à traiter, aucun transfert de données personnelles vers l\'étranger n\'est effectué.</p>
+        
+        <h2>Modifications de cette Politique</h2>
+        <p>Nous nous réservons le droit de modifier cette politique de confidentialité. Les modifications prendront effet dès leur publication sur notre site. Nous vous encourageons à consulter régulièrement cette page pour rester informé de nos pratiques.</p>
+        
+        <h2>Nous Contacter</h2>
+        <p>Pour toute question relative à la protection de vos données ou pour exercer vos droits, vous pouvez nous contacter via : contact@crazy-parieur.fr</p>
+        
+        <p>Cette politique de confidentialité est conçue pour garantir transparence et sécurité chez Crazy Parieur, dans le respect de la législation en vigueur. Merci de votre confiance.</p>
     ';
     renderTextContainer('', $privacyContent);
 }
@@ -217,22 +248,44 @@ function renderResponsibleGamingContent() {
     renderTextContainer('', $responsibleContent);
 }
 
-// ANJ content - PLACEHOLDER - Please provide Figma content  
+// ANJ content
 function renderANJContent() {
     $anjContent = '
-        <p>[PLACEHOLDER - Please provide the text content from Figma for the ANJ page]</p>
+        <h2>Mission de l\'ANJ</h2>
+        <p>L\'Autorité Nationale des Jeux, qui a succédé à l\'ARJEL en juin 2020 selon la loi du 12 mai 2010, régule désormais l\'ensemble du secteur des jeux d\'argent en France. Sa mission principale est de veiller à la sécurité et à l\'équité des jeux proposés aux joueurs, ainsi qu\'à effectuer la prévention du jeu compulsif et la protection des mineurs.</p>
         
-        <h3>Qu\'est-ce que l\'ANJ ?</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Réglementation des paris sportifs en France</h2>
+        <p>La réglementation des paris sportifs est strictement encadrée en France. Seuls les opérateurs ayant reçu un agrément de l\'ANJ peuvent légalement proposer des paris. Les sports sur lesquels il est possible de parier sont également réglementés, avec une liste établie et mise à jour régulièrement par l\'ANJ.</p>
         
-        <h3>Missions de l\'ANJ</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Opérateurs agréés par l\'ANJ</h2>
+        <p>Les opérateurs de jeux en ligne et de paris sportifs doivent obtenir une licence de l\'ANJ pour opérer légalement en France. Cette licence assure que l\'opérateur répond à des critères stricts de sécurité, d\'éthique et de responsabilité financière.</p>
         
-        <h3>Protection des Joueurs</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Protection des joueurs</h2>
+        <p>L\'ANJ met en œuvre plusieurs mesures pour protéger les joueurs, notamment le contrôle de l\'âge des joueurs, des outils de gestion de budget et des alertes en cas de comportement de jeu problématique. Ces mesures sont conçues pour prévenir l\'addiction au jeu et assurer une pratique du jeu responsable.</p>
         
-        <h3>Contact</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Lutte contre les sites illégaux</h2>
+        <p>L\'ANJ est également chargée de lutter contre l\'offre illégale de jeux d\'argent sur Internet. Elle travaille en étroite collaboration avec des organismes de régulation et les autorités judiciaires pour identifier et sanctionner les opérateurs non agréés.</p>
+        
+        <h2>Sanctions appliquées par l\'ANJ</h2>
+        <p>En cas de non-respect de la réglementation, l\'ANJ peut appliquer diverses sanctions aux opérateurs, allant de la suspension de la licence à des amendes substantielles. Ces mesures visent à maintenir un environnement de jeu sûr et juste pour tous les joueurs.</p>
+        
+        <h2>Ressources disponibles via l\'ANJ</h2>
+        <p>Pour plus d\'informations sur la réglementation des jeux et les protections offertes aux joueurs, les ressources suivantes sont disponibles sur le site officiel de l\'ANJ (anj.fr) :</p>
+        <ul>
+            <li>Liste des opérateurs agréés</li>
+            <li>Informations sur les droits des joueurs</li>
+            <li>Méthodes pour signaler un site non-agréé</li>
+            <li>Détails sur le cadre juridique des paris sportifs</li>
+        </ul>
+        
+        <h2>Contact de l\'ANJ</h2>
+        <p>Pour toutes questions ou préoccupations, vous pouvez contacter l\'Autorité Nationale des Jeux :</p>
+        <p>Email: contact@anj.fr</p>
+        
+        <h2>Lien vers le site officiel de l\'ANJ</h2>
+        <p>Pour plus de détails, visitez le site officiel : https://www.anj.fr</p>
+        
+        <p>Cette page a été conçue pour fournir un aperçu complet de l\'Autorité Nationale des Jeux (ANJ) et son rôle essentiel dans le cadre du marché des jeux d\'argent en France. N\'hésitez pas à contacter l\'ANJ pour toute demande de renseignement.</p>
     ';
     renderTextContainer('', $anjContent);
 }
