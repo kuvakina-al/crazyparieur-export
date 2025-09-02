@@ -1,6 +1,6 @@
 /* Main Content Container */
 .main-content-container {
-    width: 1608px;
+    width: 2000px;
     min-height: auto;
     border-top: 1px solid;
     border-image-source: linear-gradient(270deg, #0A0B0E 0%, #04FF25 50%, #0A0B0E 100%);
