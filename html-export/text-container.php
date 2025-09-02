@@ -89,7 +89,7 @@ function renderGolfPageContent() {
         <p>Alors, prêt à viser de nouveaux gains? Rejoignez notre communauté et transformez vos intuitions en victoires. Avec nous, visez le drapeau, et qui sait? Le hole-in-one parfait vous attend peut-être!</p>
 
         ';
-    renderTextContainer('Développement', $golfContent);
+    renderTextContainer('', $golfContent);
 }
 
 // Basketball page content
@@ -112,8 +112,14 @@ function renderBasketballPageContent() {
         
         <h2>Prêt à Commencer?</h2>
         <p>Le basketball vous accompagne dans votre engagement sportif avec Crazy Parieur. Nos experts vous guident à travers des stratégies et outils détaillés pour maximiser vos chances. Avec notre approche légale et responsable, vous avez tous les outils pour une expérience réussie. Prêt à commencer? C\'est parti!</p>
-    ';
-    renderTextContainer('Développement', $basketballContent);
+    
+        <h2>FAQ Basketball</h2>
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1:</strong></p><p>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
+    
+        ';
+    renderTextContainer('', $basketballContent);
 }
 
 // Privacy Policy content - PLACEHOLDER - Please provide Figma content
@@ -136,7 +142,7 @@ function renderPrivacyPolicyContent() {
         <h3>Contact</h3>
         <p>[Content needed from Figma]</p>
     ';
-    renderTextContainer('Développement', $privacyContent);
+    renderTextContainer('', $privacyContent);
 }
 
 // Responsible Gaming content - PLACEHOLDER - Please provide Figma content
@@ -156,7 +162,7 @@ function renderResponsibleGamingContent() {
         <h3>Aide et Support</h3>
         <p>[Content needed from Figma]</p>
     ';
-    renderTextContainer('Développement', $responsibleContent);
+    renderTextContainer('', $responsibleContent);
 }
 
 // ANJ content - PLACEHOLDER - Please provide Figma content  
@@ -176,7 +182,7 @@ function renderANJContent() {
         <h3>Contact</h3>
         <p>[Content needed from Figma]</p>
     ';
-    renderTextContainer('Développement', $anjContent);
+    renderTextContainer('', $anjContent);
 }
 
 // Terms of Use content - PLACEHOLDER - Please provide Figma content
@@ -196,6 +202,6 @@ function renderTermsOfUseContent() {
         <h3>Dispositions Légales</h3>
         <p>[Content needed from Figma]</p>
     ';
-    renderTextContainer('Développement', $termsContent);
+    renderTextContainer('', $termsContent);
 }
 ?>
