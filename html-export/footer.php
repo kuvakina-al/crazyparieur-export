@@ -21,12 +21,15 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                                 <img src="./images/crazy parieur.png" alt="Crazy Parieur" class="footer-logo-img" />
                             </a>
                         </div>
-                        <p class="footer-disclaimer">
-                            © 2025 crazy-parieur.fr<br>
-                            Appelez le 0800 35 777 (Belgique), 1-888-230-3505 (Canada), 09 74 75 13 13 (France), 0800 801 381 (Suisse).<br><br>
-                            Vous avez la responsabilité de vérifier que vous êtes autorisé à jouer aux jeux d'argent en ligne dans votre pays ou juridiction. Ce site d'information peut contenir des liens vers des sites de jeux en ligne qui peuvent être légaux ou pas selon les juridictions. Jouer comporte des risques : endettement, dépendance.
-                        </p>
+                        <div class="footer-text-section">
+                            <p class="footer-copyright-text">© 2025 crazy-parieur.fr</p>
+                            <p class="footer-phone-text">Appelez le 0800 35 777 (Belgique), 1-888-230-3505 (Canada), 09 74 75 13 13 (France), 0800 801 381 (Suisse).</p>
+                        </div>
                     </div>
+                    
+                    <p class="footer-disclaimer">
+                        Vous avez la responsabilité de vérifier que vous êtes autorisé à jouer aux jeux d'argent en ligne dans votre pays ou juridiction. Ce site d'information peut contenir des liens vers des sites de jeux en ligne qui peuvent être légaux ou pas selon les juridictions. Jouer comporte des risques : endettement, dépendance.
+                    </p>
                         
                     <div class="partner-logos">
                         <div class="partner-logo">
@@ -44,10 +47,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <p class="footer-copyright">© 2025 Crazy Parieur. Tous droits réservés.</p>
         </div>
     </div>
 </footer>
