@@ -161,22 +161,58 @@ function renderPrivacyPolicyContent() {
     renderTextContainer('', $privacyContent);
 }
 
-// Responsible Gaming content - PLACEHOLDER - Please provide Figma content
+// Responsible Gaming content
 function renderResponsibleGamingContent() {
     $responsibleContent = '
-        <p>[PLACEHOLDER - Please provide the text content from Figma for the Responsible Gaming page]</p>
+        <h2>Notre Engagement pour le Jeu Responsable</h2>
+        <p>Chez Crazy Parieur, nous nous engageons à offrir une expérience de jeu sécurisée et responsable à tous nos utilisateurs. Nous collaborons étroitement avec l\'Autorité Nationale des Jeux (ANJ) pour promouvoir des pratiques de pari saines et prévenir les risques de jeu pathologique. Il est essentiel pour nous que nos services restent une source de plaisir et non de problèmes.</p>
         
-        <h3>Notre Engagement</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Prévention et Sécurité</h2>
+        <p>Nous appliquons une politique stricte d\'interdiction aux mineurs de moins de 18 ans, conformément à la législation en vigueur. Notre plateforme intègre différents mécanismes de contrôle pour minimiser les risques d\'un jeu nuisant à votre environnement ou jeu sécurisé.</p>
         
-        <h3>Prévention</h3>
-        <p>[Content needed from Figma]</p>
+        <h2>Signes de Jeu Problématique</h2>
+        <p>Reconnaître les signaux d\'alarme du jeu problématique est crucial pour agir de manière préventive. Voici quelques signes qui peuvent indiquer un problème :</p>
         
-        <h3>Signes de Dépendance</h3>
-        <p>[Content needed from Figma]</p>
+        <h3>Changements de Comportement</h3>
+        <p>Augmentation du temps et de l\'argent consacré aux jeux, négligence des responsabilités personnelles, professionnelles ou familiales.</p>
         
-        <h3>Aide et Support</h3>
-        <p>[Content needed from Figma]</p>
+        <h3>Signes Émotionnels</h3>
+        <p>Changements d\'humeur soudains, irritabilité croissante ou anxiété liée aux activités de jeu.</p>
+        
+        <h3>Difficultés Financières</h3>
+        <p>Problèmes financiers soudains, comme des dettes qui s\'accumulent ou des emprunts fréquents pour continuer à jouer.</p>
+        
+        <h2>Outils de Prévention</h2>
+        <p>Crazy Parieur met à disposition plusieurs outils pour aider nos utilisateurs à garder le contrôle sur leurs activités de jeu.</p>
+        
+        <h3>Limites de Dépôt</h3>
+        <p>Les joueurs peuvent fixer des limites de dépôt quotidiennes, hebdomadaires ou mensuelles pour gérer leurs dépenses de manière proactive.</p>
+        
+        <h3>Auto-Évaluation</h3>
+        <p>Nous proposons des tests d\'auto-évaluation pour aider les joueurs à mieux comprendre leur comportement de jeu et détecter d\'éventuels signes problématiques dès le début.</p>
+        
+        <h2>Ressources d\'Aide</h2>
+        <p>En cas de besoin, plusieurs ressources sont disponibles pour obtenir de l\'aide :</p>
+        
+        <h3>Ligne d\'Assistance ANJ</h3>
+        <p>Les joueurs peuvent contacter le numéro de l\'ANJ au 09 74 75 13 13 pour échanger avec un conseiller formé à la prévention du jeu pathologique.</p>
+        
+        <h3>Sites de Soutien</h3>
+        <p>Des sites comme addict-aide.fr et sos-joueurs.org proposent informations, conseils et accompagnement aux joueurs concernés par des comportements de jeu problématiques.</p>
+        
+        <h3>Auto-Exclusion</h3>
+        <p>Pour ceux qui souhaitent une perte de contrôle, notre fonction d\'auto-exclusion permet aux joueurs de se retirer temporairement ou définitivement de notre plateforme. Cette démarche peut être réalisée simplement depuis leur compte utilisateur.</p>
+        
+        <h2>Organismes de Référence</h2>
+        <p>En plus de l\'ANJ, Crazy Parieur travaille en collaboration avec plusieurs organismes reconnus pour promouvoir le jeu responsable.</p>
+        
+        <h3>Réglementation et Partenariats</h3>
+        <p>Nous coopérons étroitement avec les organismes de régulation et les groupes de soutien pour nous assurer que nos pratiques sont constamment actualisées et conformes aux meilleures normes de prévention du jeu pathologique.</p>
+        
+        <h3>Formation Continue</h3>
+        <p>Notre équipe reçoit régulièrement des formations sur les principes du jeu responsable et les techniques d\'identification des signes problématiques spécialisées pour intervenir de manière appropriée si besoin.</p>
+        
+        <p>Chez Crazy Parieur, nous prenons très au sérieux notre responsabilité en matière de jeu responsable. Notre engagement vise à garantir que chaque utilisateur bénéficie dans le domaine du plaisir et de l\'excitation sans jamais devenir source de préjudice. N\'hésitez pas à contacter notre service client pour plus d\'informations ou d\'aide concernant le jeu responsable.</p>
     ';
     renderTextContainer('', $responsibleContent);
 }
