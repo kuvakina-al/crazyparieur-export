@@ -104,7 +104,14 @@
     text-decoration: underline;
 }
 
-/* Text Container Variants */
+/* FAQ Section Styling */
+.faq-section p {
+    margin-bottom: 20px;
+}
+
+.faq-section p br {
+    line-height: 0.5;
+}
 .text-container-intro {
     background-color: #1a4d1a;
     border-color: #00ff41;
