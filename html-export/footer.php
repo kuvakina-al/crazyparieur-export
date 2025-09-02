@@ -38,13 +38,19 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                     <img src="./images/footer18+.png" alt="18+" />
                 </div>
                 <div class="partner-logo">
-                    <img src="./images/anj.png" alt="ANJ" />
+                    <a href="https://anj.fr" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/anj.png" alt="ANJ" />
+                    </a>
                 </div>
                 <div class="partner-logo">
-                    <img src="./images/begambleaware.org.png" alt="GambleAware" />
+                    <a href="https://www.gambleaware.org" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/begambleaware.org.png" alt="GambleAware" />
+                    </a>
                 </div>
                 <div class="partner-logo">
-                    <img src="./images/sos_joueurs_1.png" alt="SOS Joueurs" />
+                    <a href="https://www.sosjoueurs.org" target="_blank" rel="noopener noreferrer">
+                        <img src="./images/sos_joueurs_1.png" alt="SOS Joueurs" />
+                    </a>
                 </div>
             </div>
             </div>
