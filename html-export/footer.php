@@ -30,7 +30,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                     <p class="footer-disclaimer">
                         Vous avez la responsabilité de vérifier que vous êtes autorisé à jouer aux jeux d'argent en ligne dans votre pays ou juridiction. Ce site d'information peut contenir des liens vers des sites de jeux en ligne qui peuvent être légaux ou pas selon les juridictions. Jouer comporte des risques : endettement, dépendance.
                     </p>
-                        
+                    
                     <div class="partner-logos">
                         <div class="partner-logo">
                             <img src="./images/footer18+.png" alt="18+" />
