@@ -29,6 +29,7 @@
     margin: 40px auto;
     gap: 10px;
     opacity: 1;
+    display: block;
 }
 
 /* Main titles (Introduction, Développement, Conclusion) */
