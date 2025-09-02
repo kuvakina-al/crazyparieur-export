@@ -17,6 +17,8 @@ function renderIntroSection() {
 
 function renderDevelopmentSection() {
     $content = '
+        <p>Bienvenue sur Crazy Parieur, votre compagnon de confiance dans l\'univers des paris sportifs en ligne! Que vous soyez débutant ou parieur expérimenté, nous vous accompagnons avec des conseils d\'experts, des stratégies gagnantes et des comparatifs détaillés des meilleurs bookmakers du marché.</p>
+        
         <h3>Pourquoi Choisir les Paris Sportifs Légaux en France?</h3>
         <p>La sécurité, c\'est primordial! Les paris sportifs légaux te garantissent un cadre réglementé et sécurisé, contrôlé par l\'Autorité Nationale des Jeux (ANJ). Ça assure que tes paris se déroulent dans des conditions équitables et que tes droits de consommateur sont respectés.</p>
         <p>En plus, choisir des opérateurs agréés te protège contre les arnaques et les manipulations de résultats.</p>
@@ -35,6 +37,8 @@ function renderDevelopmentSection() {
         
         <h3>Conseils pour un Jeu Responsable</h3>
         <p>Jouer, oui, mais intelligemment! Trois règles d\'or: fixe-toi des limites de temps et d\'argent, ne cours jamais après tes pertes, et considère les paris comme un loisir, pas comme un moyen de gagner sa vie.</p>
+        
+        <p>Rejoignez la communauté Crazy Parieur dès aujourd\'hui et transformez votre passion du sport en succès! Avec nos outils et conseils, vous êtes prêt à faire les meilleurs choix pour vos paris sportifs.</p>
     ';
     renderTextContainer('Développement', $content);
 }
