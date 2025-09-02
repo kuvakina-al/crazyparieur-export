@@ -1,7 +1,7 @@
 /* Main Content Container */
 .main-content-container {
     width: 1608px;
-    height: 1179px;
+    min-height: auto;
     border-top: 1px solid;
     border-image-source: linear-gradient(270deg, #0A0B0E 0%, #04FF25 50%, #0A0B0E 100%);
     border-image-slice: 1;
@@ -22,9 +22,7 @@
 
 .text-container {
     width: 1168px;
-    min-height: auto;
-    max-height: calc(100vh - 200px);
-    overflow-y: auto;
+    height: auto;
     background: #0E1119;
     border-bottom: 2px solid #04FF25;
     border-radius: 8px;
