@@ -1,6 +1,6 @@
 /* Main Content Container */
 .main-content-container {
-    width: 2000px;
+    width: 100%;
     min-height: auto;
     border-top: 1px solid;
     border-image-source: linear-gradient(270deg, #0A0B0E 0%, #04FF25 50%, #0A0B0E 100%);
@@ -14,8 +14,6 @@
     flex-direction: column;
     max-width: 1608px;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 /* Text Container Component Styles */
@@ -24,7 +22,7 @@
     width: 100%;
     max-width: none;
     height: auto;
-    background: #0E1119;
+    background: #0A0B0E;
     border-bottom: 2px solid #04FF25;
     border-radius: 8px;
     padding: 32px 60px;
