@@ -110,13 +110,25 @@ function renderBasketballPageContent() {
         <h3>Jeu Responsable</h3>
         <p>Parier sur le basketball, c\'est excitant, mais ça doit rester un plaisir. Chez Crazy Parieur, nous encourageons des pratiques de jeu responsable en vous fournissant les outils nécessaires pour parier en sécurité. Fixez-vous des limites de temps et d\'argent, et n\'hésitez pas à demander de l\'aide si nécessaire. Le jeu doit être source de divertissement, pas de problèmes.</p>
         
-        <h2>Prêt à Commencer?</h2>
-        <p>Le basketball vous accompagne dans votre engagement sportif avec Crazy Parieur. Nos experts vous guident à travers des stratégies et outils détaillés pour maximiser vos chances. Avec notre approche légale et responsable, vous avez tous les outils pour une expérience réussie. Prêt à commencer? C\'est parti!</p>
-    
+        
+        <h2>FAQ Basketball</h2>
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1: </strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
+        <h2>FAQ Basketball</h2>
+        <p><strong>Q1: Y a-t-il des paris en direct sur le basketball?</strong></p>
+        <p><strong>R1: </strong>Oui, et ils peuvent être très intéressants grâce aux changements de score rapides.</p> 
+
         <h2>FAQ Basketball</h2>
         <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
         <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
 
+        <h2>FAQ Basketball</h2>
+        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
+        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+
+        <h2>Prêt à Commencer?</h2>
+        <p>Envie de transformer chaque panier à trois points en victoire pour votre portefeuille? Rejoignez Crazy Parieur dès maintenant pour profiter des meilleurs conseils, cotes et promotions sur les paris basketball. Pariez intelligent avec notre plateforme sécurisée et facile d\'utilisation. Plus d\'hésitation, lancez-vous dans l\'aventure des paris sportifs!</p>
     
         ';
     renderTextContainer('', $basketballContent);
