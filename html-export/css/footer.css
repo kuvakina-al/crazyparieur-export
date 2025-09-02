@@ -183,12 +183,8 @@
         gap: 20px;
     }
     
-    .footer-content-left {
-        align-items: center;
-        text-align: center;
-    }
-    
     .footer-top-section {
+        order: 1;
         flex-direction: column;
         align-items: center;
         gap: 15px;
@@ -205,6 +201,7 @@
     }
     
     .footer-disclaimer {
+        order: 3;
         text-align: center;
         max-width: none;
     }
