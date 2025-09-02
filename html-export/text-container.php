@@ -114,9 +114,23 @@ function renderBasketballPageContent() {
         <p>Le basketball vous accompagne dans votre engagement sportif avec Crazy Parieur. Nos experts vous guident à travers des stratégies et outils détaillés pour maximiser vos chances. Avec notre approche légale et responsable, vous avez tous les outils pour une expérience réussie. Prêt à commencer? C\'est parti!</p>
     
         <h2>FAQ Basketball</h2>
-        <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
-        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
-
+        <h3>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</h3>
+        <p><strong>R1:</strong> Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
+        
+        <h3>Q2: Quels sont les paris les plus populaires au basketball ?</h3>
+        <p><strong>R2:</strong> Vainqueur du match, total de points (plus/moins), et paris sur les performances individuelles.</p>
+        
+        <h3>Q3: Comment analyser efficacement une équipe avant de parier ?</h3>
+        <p><strong>R3:</strong> Étudiez les statistiques récentes, l\'état de forme des joueurs clés, les blessures et l\'historique des confrontations directes.</p>
+        
+        <h3>Q4: Y a-t-il une différence entre parier sur la NBA et les ligues européennes ?</h3>
+        <p><strong>R4:</strong> Oui, la NBA a généralement des scores plus élevés et un rythme de jeu différent comparé aux championnats européens comme l\'Euroligue.</p>
+        
+        <h3>Q5: Peut-on parier en direct sur les matches de basketball ?</h3>
+        <p><strong>R5:</strong> Absolument ! Les paris en direct permettent de profiter des changements de momentum pendant le match.</p>
+        
+        <h3>Q6: Quel budget recommandez-vous pour débuter dans les paris basketball ?</h3>
+        <p><strong>R6:</strong> Commencez avec un montant que vous pouvez vous permettre de perdre, généralement 1-2% de vos revenus mensuels disponibles.</p>
     
         ';
     renderTextContainer('', $basketballContent);
