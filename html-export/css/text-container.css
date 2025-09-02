@@ -21,8 +21,8 @@
 /* Text Container Component Styles */
 
 .text-container {
-    width: 1608px;
-    max-width: 95%;
+    width: calc(100% - 74px);
+    max-width: 1168px;
     height: auto;
     background: #0E1119;
     border-bottom: 2px solid #04FF25;
