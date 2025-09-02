@@ -1,0 +1,205 @@
+/* Responsive Page Styles */
+
+/* Page titles and subtitles */
+.page-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #04FF25;
+    margin-bottom: 15px;
+}
+
+.page-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+/* Bonus frame with checkbox */
+.bonus-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 40px auto;
+    max-width: 506px;
+    height: 48px;
+    background: linear-gradient(180deg, #1E2334 0%, #0A1020 100%);
+    border-radius: 999px;
+    padding: 12px 24px;
+    gap: 12px;
+}
+
+.checkbox-container {
+    width: 24px;
+    height: 24px;
+    background-color: #04FF25;
+    border: 1px solid #04FF25;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.checkmark {
+    margin-top: 3.25px;
+    margin-left: 1.86px;
+}
+
+.bonus-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+/* Main content container responsive */
+.main-content-container {
+    width: 100%;
+    max-width: 1608px;
+    border-top: 1px solid;
+    border-image-source: linear-gradient(270deg, #0A0B0E 0%, #04FF25 50%, #0A0B0E 100%);
+    border-image-slice: 1;
+    padding: 32px 220px;
+    gap: 10px;
+    opacity: 1;
+    background: #0A0B0E;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Container and section responsive */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 28px;
+        margin-bottom: 12px;
+        padding: 0 15px;
+    }
+    
+    .page-subtitle {
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 0 15px;
+    }
+    
+    .bonus-frame {
+        max-width: 90%;
+        height: auto;
+        min-height: 48px;
+        padding: 12px 16px;
+        gap: 8px;
+        flex-wrap: nowrap;
+    }
+    
+    .bonus-text {
+        font-size: 12px;
+        white-space: normal;
+        text-align: center;
+        line-height: 1.3;
+    }
+    
+    .checkbox-container {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+    }
+    
+    .checkmark {
+        width: 10px;
+        height: 8px;
+        margin: 2px 0 0 1px;
+    }
+    
+    .main-content-container {
+        padding: 20px 15px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    .section {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 479px) {
+    .page-title {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    
+    .page-subtitle {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    
+    .bonus-frame {
+        padding: 10px 12px;
+        gap: 6px;
+    }
+    
+    .bonus-text {
+        font-size: 11px;
+    }
+    
+    .main-content-container {
+        padding: 15px 10px;
+    }
+    
+    .container {
+        padding: 0 5px;
+    }
+}
+
+/* Large desktop styles */
+@media (min-width: 1400px) {
+    .main-content-container {
+        padding: 32px 280px;
+    }
+}
+
+/* Medium desktop styles */
+@media (max-width: 1200px) {
+    .main-content-container {
+        padding: 32px 120px;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 968px) {
+    .main-content-container {
+        padding: 25px 60px;
+    }
+    
+    .page-title {
+        font-size: 32px;
+    }
+    
+    .page-subtitle {
+        font-size: 18px;
+    }
+}

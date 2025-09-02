@@ -8,6 +8,7 @@
     <meta name="author" content="Crazy Parieur">
     
     <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Barlow+Condensed:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="css/cookies.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/text-container.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <div class="site-wrapper">
@@ -24,7 +26,7 @@
         <main class="main-content">
             <div class="container">
                 <section class="section">
-                    <h1>Découvrez l'Autorité Nationale des Jeux (ANJ)</h1>
+                    <h1 class="page-title">Découvrez l'Autorité Nationale des Jeux (ANJ)</h1>
                     
                     <?php include './text-container.php'; ?>
                     <?php
