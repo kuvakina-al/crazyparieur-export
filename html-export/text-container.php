@@ -113,24 +113,9 @@ function renderBasketballPageContent() {
         <h2>Prêt à Commencer?</h2>
         <p>Le basketball vous accompagne dans votre engagement sportif avec Crazy Parieur. Nos experts vous guident à travers des stratégies et outils détaillés pour maximiser vos chances. Avec notre approche légale et responsable, vous avez tous les outils pour une expérience réussie. Prêt à commencer? C\'est parti!</p>
     
-         <h2>FAQ Basketball</h2>
+        <h2>FAQ Basketball</h2>
         <p><strong>Q1: Quel est le meilleur moment pour placer un pari sur le basketball ?</strong></p>
-        <p><strong>R1:</strong> Juste avant le match, quand les compositions d'équipes sont annoncées.</p>
-        
-        <p><strong>Q2: Y a-t-il des paris en direct sur le basketball?</strong></p>
-        <p><strong>R2:</strong> Oui, et ils peuvent être très intéressants grâce aux changements de score rapides.</p>
-        
-        <p><strong>Q3: Comment suivre les statistiques importantes pour mes paris?</strong></p>
-        <p><strong>R3:</strong> Les sites spécialisés et les applications officielles des ligues sont vos meilleurs alliés.</p>
-        
-        <p><strong>Q4: Comment éviter le piège des cotes trop attrayantes?</strong></p>
-        <p><strong>R4:</strong> Toujours analyser le match en profondeur et éviter les paris impulsifs.</p>
-        
-        <p><strong>Q5: Peut-on parier sur des ligues étrangères?</strong></p>
-        <p><strong>R5:</strong> Oui, la plupart des bookmakers proposent de nombreuses ligues internationales.</p>
-        
-        <p><strong>Q6: Peut-on avoir des conseils personnalisés?</strong></p>
-        <p><strong>R6:</strong> Oui, beaucoup de sites offrent des analyses et conseils adaptés à votre profil.</p>
+        <p><strong>R1:</strong>Juste avant le match, quand les compositions d\'équipes sont annoncées.</p> 
 
     
         ';
