@@ -11,11 +11,11 @@ function renderTextContainer($title, $content, $variant = '') {
 
 // Main page content sections
 function renderMainPageContent() {
-    // All content in one Development Section
-    $developmentContent = '
+    $mainContent = '
+        <h2>Introduction</h2>
         <p>Salut! Tu es passionné de sport et tu veux te lancer dans les paris sportifs? Ou peut-être que tu cherches à améliorer tes stratégies? Bienvenue sur Crazy Parieur, ton guide pour comparer les meilleures offres de paris sportifs légaux en France. Que tu débutes ou que tu sois déjà expérimenté, tu vas trouver ce qu\'il te faut ici.</p>
         
-        <p>Bienvenue sur Crazy Parieur, votre compagnon de confiance dans l\'univers des paris sportifs en ligne! Que vous soyez débutant ou parieur expérimenté, nous vous accompagnons avec des conseils d\'experts, des stratégies gagnantes et des comparatifs détaillés des meilleurs bookmakers du marché.</p>
+        <h2>Développement</h2>
         
         <h3>Pourquoi Choisir les Paris Sportifs Légaux en France?</h3>
         <p>La sécurité, c\'est primordial! Les paris sportifs légaux te garantissent un cadre réglementé et sécurisé, contrôlé par l\'Autorité Nationale des Jeux (ANJ). Ça assure que tes paris se déroulent dans des conditions équitables et que tes droits de consommateur sont respectés.</p>
@@ -36,11 +36,10 @@ function renderMainPageContent() {
         <h3>Conseils pour un Jeu Responsable</h3>
         <p>Jouer, oui, mais intelligemment! Trois règles d\'or: fixe-toi des limites de temps et d\'argent, ne cours jamais après tes pertes, et considère les paris comme un loisir, pas comme un moyen de gagner sa vie.</p>
         
-        <p>Rejoignez la communauté Crazy Parieur dès aujourd\'hui et transformez votre passion du sport en succès! Avec nos outils et conseils, vous êtes prêt à faire les meilleurs choix pour vos paris sportifs.</p>
-        
+        <h2>Conclusion</h2>
         <p>Crazy Parieur est ton compagnon pour explorer l\'univers des paris sportifs en France. Avec nos comparaisons détaillées, nos conseils pratiques et notre approche légale et responsable, tu as tous les outils pour une expérience réussie. Prêt à commencer? C\'est parti!</p>
     ';
-    renderTextContainer('Développement', $developmentContent);
+    renderTextContainer('', $mainContent);
 }
 
 // Golf page content
